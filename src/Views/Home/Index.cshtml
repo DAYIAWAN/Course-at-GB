@@ -1,0 +1,18 @@
+﻿@inject GitAttributesWeb.Utils.AppData AppData
+
+@{
+    ViewBag.Title = "Create .gitattributes file for your project";
+}
+
+<div class="input-group">
+  <input type="text" id="types">
+  <div class="input-group-btn">
+    <button id="btnGenerate" type="button" class="btn btn-info">Generate</button>
+    <button id="btnDownload" type="button" class="btn btn-info">Download</button>
+  </div>
+</div>
+
+<script id="ignores-data" type="application/json">
+  @Html.Raw(AppData.FilesJson)
+</script>
+<script src="~/js/site.js"></script>

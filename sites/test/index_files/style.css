@@ -1,0 +1,36 @@
+﻿BODY {
+	SCROLLBAR-ARROW-COLOR: #e5b87c; SCROLLBAR-FACE-COLOR: #56201f; SCROLLBAR-HIGHLIGHT-COLOR: #e5b87c; SCROLLBAR-SHADOW-COLOR: #996600; SCROLLBAR-TRACK-COLOR: #e5b87c; activeborder: #E5B87C
+}
+A {
+	COLOR: #56201f; TEXT-DECORATION: none
+}
+A:hover {
+	BACKGROUND-COLOR: #fef1cb; COLOR: #b33a00; TEXT-DECORATION: underline
+}
+.text {
+	TEXT-ALIGN: justify; MARGIN-TOP: 0px; TEXT-INDENT: 30px; MARGIN-BOTTOM: 0px
+}
+.rem {
+	TEXT-ALIGN: justify; MARGIN-TOP: 0px; TEXT-INDENT: 30px; MARGIN-BOTTOM: 0px; COLOR: #800000
+}
+.lit {
+	TEXT-ALIGN: left; MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px
+}
+.ris {
+	TEXT-ALIGN: center; MARGIN: 0px 50px
+}
+.vst {
+	TEXT-ALIGN: center; FONT-WEIGHT: bold
+}
+.tab {
+	TEXT-ALIGN: justify; MARGIN: 0px 5px
+}
+.tab1 {
+	TEXT-ALIGN: center; MARGIN: 0px 5px
+}
+.cit {
+	TEXT-ALIGN: justify; FONT-STYLE: italic; MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px; COLOR: #800000; MARGIN-LEFT: 50px
+}
+.ann {
+	TEXT-ALIGN: justify; MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px; MARGIN-LEFT: 50px
+}
