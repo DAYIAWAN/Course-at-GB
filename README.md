@@ -1,6 +1,6 @@
+![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/dev/myIcon.png?raw=true "")
 # Репозиторий студента Дайяван'а (GB)
 
-![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/dev/myIcon.png?raw=true "")
 ## Содержание
 ### [Математика и информатика для программистов (дополнительный курс)](#myTag_one)
 
