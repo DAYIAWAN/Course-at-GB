@@ -8,10 +8,10 @@
 
 <dl>
   <dt>Ссылка на итоговое задание</dt>
-  <dd><a href="https://github.com/DAYIAWAN/Course-at-GB/tree/main/myCourses/Maths-%26-Info_for_Program_(add-course)/main" target="_blank">Открыть (на "GitHub")</a></dd>
+  <dd><a href="https://github.com/DAYIAWAN/Course-at-GB/tree/main/myCourses/Maths_and_Info_for_Program_(add-course)/main" target="_blank">Открыть (на "GitHub")</a></dd>
 
   <dt>Ссылка на архив с итоговым заданием</dt>
-  <dd><a href="https://github.com/DAYIAWAN/Course-at-GB/tree/main/myCourses/Maths-%26-Info_for_Program_(add-course)/main/Archive.zip" target="_blank">Скачать zip-архив (на "GitHub")</a></dd>
+  <dd><a href="https://github.com/DAYIAWAN/Course-at-GB/raw/main/myCourses/Maths_and_Info_for_Program_(add-course)/main/Archive.zip" target="_blank">Скачать zip-архив (на "GitHub")</a></dd>
 </dl>
 
 ![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
