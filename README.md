@@ -1,9 +1,10 @@
 # Репозиторий студента Дайяван'а (GB)
 
+![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/dev/myIcon.png?raw=true "")
 ## Содержание
 ### [Математика и информатика для программистов (дополнительный курс)](#myTag_one)
 
-![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/dev/myIcon.png?raw=true "")<a name="myTag_one"><h2>Математика и информатика для программистов (дополнительный курс)</h2></a>
+<a name="myTag_one"><h2>Математика и информатика для программистов (дополнительный курс)</h2></a>
 
 <dl>
   <dt>Ссылка на итоговое задание</dt>
