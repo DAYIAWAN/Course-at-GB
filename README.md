@@ -14,9 +14,9 @@
   <dd><a href="https://github.com/DAYIAWAN/Course-at-GB/tree/main/myCourses/Maths-%26-Info_for_Program_(add-course)/main/Archive.zip" target="_blank">Скачать zip-архив (на "GitHub")</a></dd>
 </dl>
 
-![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
-![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
-![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
+<img src="https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true" alt="" width="auto" height="auto" border="0" />
+<img src="https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true" alt="" width="auto" height="auto" border="0" />
+<img src="https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true" alt="" width="auto" height="auto" border="0" />
 
 <!--
 
