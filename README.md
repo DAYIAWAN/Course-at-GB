@@ -1,5 +1,5 @@
 ![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/dev/myIcon.png?raw=true "")
-# Репозиторий студента Дайяван'а (GB)
+# <p style="text-align: center;">Репозиторий студента Дайяван'а (GB)</p>
 
 ## Содержание
 ### [Математика и информатика для программистов (дополнительный курс)](#myTag_one)
@@ -21,7 +21,7 @@
 
 <!-- "Notion" -->
 <dl>
-  <dd><a href="https://www.notion.so/esoter/75e1e973a5584a2eb8294ffdc7ad8598" target="_blank">Учебное облако в <b>"<u>Notion</u>"</b></a></dd>
+  <dd><p style="text-align: center;"><a href="https://www.notion.so/esoter/75e1e973a5584a2eb8294ffdc7ad8598" target="_blank">Моё учебное облако в <b>"<u>Notion</u>"</b></a></p></dd>
 </dl>
 
 ![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
