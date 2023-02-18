@@ -34,8 +34,8 @@
 
 <!-- "GitHub" -->
 <dl>
-  <dt>Ссылка на итоговое задание</dt>
-  <dd><a href="https://github.com/DAYIAWAN/Course-at-GB/tree/main/myCourses/Intro_to_Programming/lectures" target="_blank">Сохранённые материалы по трём урокам курса (на "GitHub")</a></dd>
+  <dt>Сохранённые материалы по трём урокам курса</dt>
+  <dd><a href="https://github.com/DAYIAWAN/Course-at-GB/tree/main/myCourses/Intro_to_Programming/lectures" target="_blank">Ссылка на конспекты (на "GitHub")</a></dd>
 </dl>
 
 ![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
