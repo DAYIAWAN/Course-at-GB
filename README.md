@@ -4,7 +4,7 @@
 ## Содержание
 ### [Математика и информатика для программистов (дополнительный курс)](#myTag_one)
 
-<a name="myTag_one"><h2>Математика и информатика для программистов (дополнительный курс)</h2></a>
+<a name="myTag_1"><h2>Математика и информатика для программистов (дополнительный курс)</h2></a>
 
 <!-- "GitHub" -->
 <dl>
@@ -17,7 +17,7 @@
 
 ![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
 
-<a name="myTag_one"><h2>Введение в программирование (семинары)</h2></a>
+<a name="myTag_2"><h2>Введение в программирование (семинары)</h2></a>
 
 <!-- "GitHub" -->
 <dl>
@@ -30,12 +30,22 @@
 
 ![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
 
-<a name="myTag_one"><h2>Введение в программирование (лекции)</h2></a>
+<a name="myTag_3"><h2>Введение в программирование (лекции)</h2></a>
 
 <!-- "GitHub" -->
 <dl>
   <dt>Сохранённые материалы по трём урокам курса</dt>
   <dd><a href="https://github.com/DAYIAWAN/Course-at-GB/tree/main/myCourses/Intro_to_Programming/lectures" target="_blank">Ссылка на конспекты (на "GitHub")</a></dd>
+</dl>
+
+![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
+
+<a name="myTag_4"><h2>Знакомство с языками программирования</h2></a>
+
+<!-- "GitHub" -->
+<dl>
+  <dt>Ссылка на папку с 4-я задачами (C#)</dt>
+  <dd><a href="https://github.com/DAYIAWAN/Course-at-GB/tree/main/myCourses/Intro_to_program_languages" target="_blank">Ссылка на 4 задачи (на "GitHub")</a></dd>
 </dl>
 
 ![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
