@@ -9,11 +9,11 @@ public class Program
 
         if (number % 2 == 0)
         {
-            Console.WriteLine("Число является четным.");
+            Console.WriteLine("Число является чётным!");
         }
         else
         {
-            Console.WriteLine("Число не является четным.");
+            Console.WriteLine("Число НЕ является чётным!");
         }
     }
 }
