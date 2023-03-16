@@ -17,4 +17,4 @@ if (number < 100 || number >= 1000)
 
 Console.WriteLine($"Введённое число '{number}'");
 int secondRank = number / 10 % 10;
-Console.WriteLine($"Втора цифра '{secondRank}'");
+Console.WriteLine($"Вторая цифра '{secondRank}'");
