@@ -44,7 +44,7 @@
 
 <!-- "GitHub" -->
 <dl>
-  <dt>Ссылка на папку с 4-я задачами (C#)</dt>
+  <dt>Ссылка на папку с задачами к семинарам (C#)</dt>
   <dd><a href="https://github.com/DAYIAWAN/Course-at-GB/tree/main/myCourses/Intro_to_program_languages" target="_blank">Ссылка на 4 задачи (на "GitHub")</a></dd>
 </dl>
 
