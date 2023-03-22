@@ -265,3 +265,5 @@ Temporary Items
 .apdisk
 
 src/wwwroot/data/
+
+.fake
