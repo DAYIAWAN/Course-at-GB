@@ -13,7 +13,7 @@ Console.WriteLine("Массив: ");
 PrintArray(numbers);
 int sum = 0;
 
-for (int j = 0; j < numbers.Length; j+=2)
+for (int j = 1; j < numbers.Length; j+=2)
     sum = sum + numbers[j];
 
     Console.WriteLine($"Всего {numbers.Length} чисел | сумма элементов cтоящих на нечётных индексах = {sum}");
