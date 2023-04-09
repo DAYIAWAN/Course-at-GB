@@ -45,7 +45,15 @@
 <!-- "GitHub" -->
 <dl>
   <dt>Ссылка на папку с задачами к семинарам (C#)</dt>
-  <dd><a href="https://github.com/DAYIAWAN/Course-at-GB/tree/main/myCourses/Intro_to_program_languages" target="_blank">Ссылка на 4 задачи (на "GitHub")</a></dd>
+  <dd><a href="https://github.com/DAYIAWAN/Course-at-GB/tree/main/myCourses/Intro_to_program_languages" target="_blank">Открыть (на "GitHub")</a></dd>
+</dl>
+
+![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
+
+<!-- "GitHub" -->
+<dl>
+  <dt>Знакомство с базами данных</dt>
+  <dd><a href="https://github.com/DAYIAWAN/Course-at-GB/tree/main/myCourses/DataBases" target="_blank">Открыть (на "GitHub")</a></dd>
 </dl>
 
 ![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
