@@ -50,9 +50,11 @@
 
 ![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
 
+<a name="myTag_5"><h2>Знакомство с базами данных</h2></a>
+
 <!-- "GitHub" -->
 <dl>
-  <dt>Знакомство с базами данных</dt>
+  <dt>Ссылка на папку с заданиями</dt>
   <dd><a href="https://github.com/DAYIAWAN/Course-at-GB/tree/main/myCourses/DataBases" target="_blank">Открыть (на "GitHub")</a></dd>
 </dl>
 
