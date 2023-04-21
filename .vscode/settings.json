@@ -1,7 +1,0 @@
-{
-    "easycode.userEmail": "dayiawan@mail.ru",
-    "easycode.promptPrefix.refactorCode": "Refactor this code: ",
-    "easycode.promptPrefix.writeUnitTests": "Write unit tests for this code: ",
-    "easycode.copyOnClick": true,
-    "easycode.model": "gpt-3.5-turbo"
-}
