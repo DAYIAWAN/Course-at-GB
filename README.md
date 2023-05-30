@@ -69,6 +69,16 @@
 </dl>
 
 ![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
+
+<a name="myTag_7"><h2>Знакомство с языком Python</h2></a>
+
+<!-- "GitHub" -->
+<dl>
+  <dt>Ссылка на папку с задачами к семинарам (Python)</dt>
+  <dd><a href="https://github.com/DAYIAWAN/Course-at-GB/tree/main/myCourses/Intro_to_Python" target="_blank">Открыть (на "GitHub")</a></dd>
+</dl>
+
+![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
 ![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
 ![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
 
