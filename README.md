@@ -17,7 +17,7 @@
 
 ![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
 
-<a name="myTag_2"><h2>Введение в программирование (семинары)</h2></a>
+<a name="myTag_2"><h2>Введение в программирование</h2></a>
 
 <!-- "GitHub" -->
 <dl>
@@ -95,6 +95,15 @@
 <dl>
   <dt>Ссылка на папку с задачами к семинарам (Java)</dt>
   <dd><a href="https://github.com/DAYIAWAN/Course-at-GB/tree/main/myCourses/Java_intro" target="_blank">Открыть (на "GitHub")</a></dd>
+
+![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
+
+<a name="myTag_10"><h2>Объектно-ориентированное программирование</h2></a>
+
+<!-- "GitHub" -->
+<dl>
+  <dt>Ссылка на папку с задачами к семинарам (Java)</dt>
+  <dd><a href="https://github.com/DAYIAWAN/Course-at-GB/tree/main/myCourses/OOP" target="_blank">Открыть (на "GitHub")</a></dd>
 
 ![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
 ![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
