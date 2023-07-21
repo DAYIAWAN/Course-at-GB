@@ -106,6 +106,15 @@
   <dd><a href="https://github.com/DAYIAWAN/Course-at-GB/tree/main/myCourses/OOP" target="_blank">Открыть (на "GitHub")</a></dd>
 
 ![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
+
+<a name="myTag_11"><h2>Знакомство с Веб-технологиями</h2></a>
+
+<!-- "GitHub" -->
+<dl>
+  <dt>Ссылка на папку с заданиями</dt>
+  <dd><a href="https://github.com/DAYIAWAN/Course-at-GB/tree/main/myCourses/Intro_to_Web-tech" target="_blank">Открыть (на "GitHub")</a></dd>
+
+![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
 ![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
 ![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
 
