@@ -1,11 +1,11 @@
 [
-    {
-      "name": "Дайяван",
-      "surname": "Мотояма",
-      "patronymic": "Харутонарджима",
-      "age": 1985,
-      "birthplace": "Москва",
-      "phone": "+79264716754"
-	  "email": "dayiawan@mail.ru"
-    }
-  ]
+	{
+		"name": "Дайяван",
+		"surname": "Мотояма",
+		"patronymic": "Харутонарджима",
+		"age": 1985,
+		"birthplace": "Москва",
+		"phone": "+79264716754"
+		"email": "dayiawan@mail.ru"
+	}
+]

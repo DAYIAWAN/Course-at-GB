@@ -40,9 +40,9 @@ age: "1985",
 
 birthplace: "Москва",
 
-phone: +7 (926) 471-67-54,
+phone: "+7 (926) 471-67-54",
 
-email: dayiawan@mail.ru,
+email: "dayiawan@mail.ru",
 
 ```
 
