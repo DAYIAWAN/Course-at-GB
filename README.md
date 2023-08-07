@@ -2,7 +2,6 @@
 # <p style="text-align: center;">Репозиторий студента Дайяван'а (GB)</p>
 
 ## Содержание
-### [Математика и информатика для программистов (дополнительный курс)](#myTag_one)
 
 <a name="myTag_1"><h2>Математика и информатика для программистов (дополнительный курс)</h2></a>
 
@@ -17,7 +16,17 @@
 
 ![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
 
-<a name="myTag_2"><h2>Введение в программирование</h2></a>
+<a name="myTag_2"><h2>Введение в программирование (лекции)</h2></a>
+
+<!-- "GitHub" -->
+<dl>
+  <dt>Сохранённые материалы по трём урокам курса</dt>
+  <dd><a href="https://github.com/DAYIAWAN/Course-at-GB/tree/main/myCourses/Intro_to_Programming/lectures" target="_blank">Ссылка на конспекты (на "GitHub")</a></dd>
+</dl>
+
+![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
+
+<a name="myTag_3"><h2>Введение в программирование (семинары)</h2></a>
 
 <!-- "GitHub" -->
 <dl>
@@ -26,16 +35,6 @@
 
   <dt>Ссылка на архив с итоговым заданием</dt>
   <dd><a href="https://github.com/DAYIAWAN/Course-at-GB/raw/main/myCourses/Intro_to_Programming/seminars/Archive.zip" target="_blank">Скачать zip-архив (на "GitHub")</a></dd>
-</dl>
-
-![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
-
-<a name="myTag_3"><h2>Введение в программирование (лекции)</h2></a>
-
-<!-- "GitHub" -->
-<dl>
-  <dt>Сохранённые материалы по трём урокам курса</dt>
-  <dd><a href="https://github.com/DAYIAWAN/Course-at-GB/tree/main/myCourses/Intro_to_Programming/lectures" target="_blank">Ссылка на конспекты (на "GitHub")</a></dd>
 </dl>
 
 ![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
