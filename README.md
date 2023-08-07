@@ -1,4 +1,5 @@
 ![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/dev/myIcon.png?raw=true "")
+
 # <p style="text-align: center;">Репозиторий студента Дайяван'а (GB)</p>
 
 ![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
@@ -132,12 +133,3 @@
 <p style="text-align: center;"><a href="https://esoter.notion.site/75e1e973a5584a2eb8294ffdc7ad8598" target="_blank">Моё учебное облако в <b>"<u>Notion</u>"</b></a></p>
 
 ![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
-
-<!--
-
-![DAYIAWAN](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "DAYIAWAN")
-
-<a href="https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true" target="_blank"><img src="https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true" 
-alt="DAYIAWAN" width="auto" height="auto" border="0" /></a>
-
--->
