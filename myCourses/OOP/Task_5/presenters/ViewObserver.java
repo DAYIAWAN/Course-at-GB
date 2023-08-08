@@ -1,4 +1,4 @@
-package ru.geekbrains.lesson5.presenters;
+package presenters;
 
 import java.util.Date;
 

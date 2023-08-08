@@ -1,6 +1,6 @@
-package ru.geekbrains.lesson5.presenters;
+package presenters;
 
-import ru.geekbrains.lesson5.models.Table;
+import models.Table;
 
 import java.util.Collection;
 import java.util.Date;
@@ -19,7 +19,6 @@ public interface View {
      */
     void setObserver(ViewObserver observer);
 
-
     /**
      * Зарезервировать столик на дату
      * @param reservationDate дата
@@ -27,7 +26,6 @@ public interface View {
      * @param name имя клиента
      */
     void reservationTable(Date reservationDate, int tableNo, String name);
-
 
     /**
      * Отобразить результат бронирования столика

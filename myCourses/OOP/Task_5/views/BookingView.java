@@ -1,18 +1,15 @@
-package ru.geekbrains.lesson5.views;
+package views;
 
-import ru.geekbrains.lesson5.models.Table;
-import ru.geekbrains.lesson5.presenters.View;
-import ru.geekbrains.lesson5.presenters.ViewObserver;
+import models.Table;
+import presenters.View;
+import presenters.ViewObserver;
 
 import java.util.Collection;
 import java.util.Date;
 
 public class BookingView implements View {
 
-
     private ViewObserver observer;
-
-
 
     public void showTables(Collection<Table> tables){
         for (Table table: tables) {
@@ -34,15 +31,20 @@ public class BookingView implements View {
     }
 
     /**
-     * TODO: Необходимо разработать самостоятельно в рамках домашней работы.
-     * Удаление старого резерва столика. Бронирование столика на новое время.
-     * @param oldReservationTable
-     * @param reservationDate
-     * @param tableNo
-     * @param name
+     * Метод для изменения бронирования столика.
+     * Сначала вызывается метод наблюдателя для отмены старого бронирования,
+     * затем вызывается метод наблюдателя для бронирования столика на новое время.
+     *
+     * @param oldReservationTable Номер столика с предыдущим бронированием
+     * @param reservationDate Новая дата бронирования
+     * @param tableNo Номер столика для нового бронирования
+     * @param name Имя для нового бронирования
      */
     public void changeReservationTable(int oldReservationTable, Date reservationDate, int tableNo, String name){
-        //TODO: Необходимо обратиться к наблюдателю ...
-    }
+        // Обратимся к наблюдателю для отмены старого бронирования
+        observer.onCancelReservation(oldReservationTable);
 
+        // Обратимся к наблюдателю для бронирования столика на новое время
+        observer.onReservationTable(reservationDate, tableNo, name);
+    }
 }

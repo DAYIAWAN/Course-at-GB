@@ -1,6 +1,6 @@
-package ru.geekbrains.lesson5.models;
+package models;
 
-import ru.geekbrains.lesson5.presenters.Model;
+import presenters.Model;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -10,10 +10,6 @@ public class TableModel implements Model {
 
     private Collection<Table> tables;
 
-    /**
-     * Получить список всех столиков в ресторане
-     * @return список столиков
-     */
     public Collection<Table> loadTables(){
         if (tables == null){
             tables = new ArrayList<>();
@@ -26,7 +22,6 @@ public class TableModel implements Model {
         }
 
         return tables;
-
     }
 
     public int reservationTable(Date reservationDate, int tableNo, String name){
@@ -34,32 +29,22 @@ public class TableModel implements Model {
             if (table.getNo() == tableNo){
                 Reservation reservation = new Reservation(reservationDate, name);
                 table.getReservations().add(reservation);
-                return  reservation.getId();
+                return reservation.getId();
             }
         }
         throw new RuntimeException("Некорректный номер столика.");
     }
 
-
-    /**
-     * TODO: Необходимо разработать самостоятельно в рамках домашней работы.
-     * Отмена старой брони по номеру. Резервирование столика на новую дату и время.
-     * @param oldReservationNo
-     * @param reservationDate
-     * @param tableNo
-     * @param Name
-     * @return
-     */
     public int changeReservationTable(int oldReservationNo, Date reservationDate, int tableNo, String Name){
-        return -1;
+        for (Table table : loadTables()) {
+            for (Reservation reservation : table.getReservations()) {
+                if (reservation.getId() == oldReservationNo) {
+                    table.getReservations().remove(reservation); // Удаляем старую бронь
+                    table.getReservations().add(new Reservation(reservationDate, Name)); // Бронируем на новую дату
+                    return table.getReservations().get(table.getReservations().size() - 1).getId(); // Возвращаем ID новой брони
+                }
+            }
+        }
+        throw new RuntimeException("Некорректный номер брони.");
     }
-
-
-
-
-
-
-
-
-
 }
