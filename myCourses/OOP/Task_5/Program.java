@@ -4,7 +4,7 @@
 	Метод "changeReservationTable" должен ЗАРАБОТАТЬ!
 */
 
-package mypackage;
+package Program;
 
 import models.Table;
 import models.TableModel;
