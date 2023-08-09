@@ -88,6 +88,7 @@
 <dl>
   <dt>Ссылка на папку с задачами к семинарам (Java)</dt>
   <dd><a href="https://github.com/DAYIAWAN/Course-at-GB/tree/main/myCourses/Algorithms-&-data_structures" target="_blank">Открыть (на "GitHub")</a></dd>
+</dl>
 
 ![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
 
@@ -97,6 +98,7 @@
 <dl>
   <dt>Ссылка на папку с задачами к семинарам (Java)</dt>
   <dd><a href="https://github.com/DAYIAWAN/Course-at-GB/tree/main/myCourses/Java_intro" target="_blank">Открыть (на "GitHub")</a></dd>
+</dl>
 
 ![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
 
@@ -106,6 +108,7 @@
 <dl>
   <dt>Ссылка на папку с задачами к семинарам (Java)</dt>
   <dd><a href="https://github.com/DAYIAWAN/Course-at-GB/tree/main/myCourses/OOP" target="_blank">Открыть (на "GitHub")</a></dd>
+</dl>
 
 ![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
 
@@ -115,6 +118,7 @@
 <dl>
   <dt>Ссылка на папку с заданиями</dt>
   <dd><a href="https://github.com/DAYIAWAN/Course-at-GB/tree/main/myCourses/Intro_to_Web-tech" target="_blank">Открыть (на "GitHub")</a></dd>
+</dl>
 
 ![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
 
@@ -124,6 +128,36 @@
 <dl>
   <dt>Ссылка на папку с заданиями</dt>
   <dd><a href="https://github.com/DAYIAWAN/Course-at-GB/tree/main/myCourses/Networks" target="_blank">Открыть (на "GitHub")</a></dd>
+</dl>
+
+![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
+![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
+![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
+
+<a name="myTag_myTask"><h2>Готовый телефонный справочник, разработанный на Python</h2></a>
+
+<!-- "GitHub" -->
+<dl>
+  <dd><a href="https://github.com/DAYIAWAN/Course-at-GB/tree/main/myCourses/1___FinalTask___2023" target="_blank">Открыть (на "GitHub")</a></dd>
+</dl>
+
+![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
+
+<a name="myTag_myTask"><h2>Готовое приложение бронирования столиков в сети из трёх ресторанов (на выбор клиента), реализованное на Java</h2></a>
+
+<!-- "GitHub" -->
+<dl>
+  <dd><a href="https://github.com/DAYIAWAN/Course-at-GB/tree/main/myCourses/2___FinalTask___2023" target="_blank">Открыть (на "GitHub")</a></dd>
+</dl>
+
+![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
+
+<a name="myTag_myTask"><h2>Готовое приложение оформления заказов через интернет-магазин (на выбор клиента), реализованное на Java через шаблон проектирования "Singleton"</h2></a>
+
+<!-- "GitHub" -->
+<dl>
+  <dd><a href="https://github.com/DAYIAWAN/Course-at-GB/tree/main/myCourses/3___FinalTask___2023" target="_blank">Открыть (на "GitHub")</a></dd>
+</dl>
 
 ![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
 ![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
