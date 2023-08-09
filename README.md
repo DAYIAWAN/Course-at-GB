@@ -134,7 +134,9 @@
 ![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
 ![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
 
-<a name="myTag_myTask"><h2>Готовый телефонный справочник, разработанный на Python</h2></a>
+## <<< ИТОГОВЫЕ РАБОТЫ >>>
+
+<a name="myTag_myTask"><h3>Готовый телефонный справочник, разработанный на Python</h3></a>
 
 <!-- "GitHub" -->
 <dl>
@@ -143,7 +145,7 @@
 
 ![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
 
-<a name="myTag_myTask"><h2>Готовое приложение бронирования столиков в сети из трёх ресторанов (на выбор клиента), реализованное на Java</h2></a>
+<a name="myTag_myTask"><h3>Готовое приложение бронирования столиков в сети из трёх ресторанов (на выбор клиента), реализованное на Java</h3></a>
 
 <!-- "GitHub" -->
 <dl>
@@ -152,7 +154,7 @@
 
 ![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
 
-<a name="myTag_myTask"><h2>Готовое приложение оформления заказов через интернет-магазин (на выбор клиента), реализованное на Java через шаблон проектирования "Singleton"</h2></a>
+<a name="myTag_myTask"><h3>Готовое приложение оформления заказов через интернет-магазин (на выбор клиента), реализованное на Java через шаблон проектирования "Singleton"</h3></a>
 
 <!-- "GitHub" -->
 <dl>
