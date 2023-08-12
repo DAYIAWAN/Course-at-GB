@@ -154,7 +154,7 @@
 
 ![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
 
-<a name="myTag_myTask"><h3>Готовое приложение оформления заказов через интернет-магазин (на выбор клиента), реализованное на Java через шаблон проектирования "Singleton"</h3></a>
+<a name="myTag_myTask"><h3>Готовое приложение для Агентства по поиску вакансий, реализованное на Java через шаблон проектирования "Singleton"</h3></a>
 
 <!-- "GitHub" -->
 <dl>
