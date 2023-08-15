@@ -14,10 +14,11 @@ public class Company {
 
     // Добавляем enum для типов вакансий
     public enum JobType {
-        ПРОГРАММИСТ,
-        АНАЛИТИК_ДАННЫХ,
-        ДИЗАЙНЕР,
-        МАРКЕТОЛОГ
+		PROGRAMMER,
+		PRO-TESTER,
+		DATA-ANALYST,
+		DESIGNER,
+		MARKETING
         // Можете добавить другие типы вакансий по мере необходимости
     }
 
