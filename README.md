@@ -172,6 +172,24 @@
 </dl>
 
 ![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
+
+<a name="myTag_myTask"><h3>Консольное приложение заметок (на Python)</h3></a>
+
+<!-- "GitHub" -->
+<dl>
+  <dd><a href="https://github.com/DAYIAWAN/Course-at-GB/tree/main/myCourses/4___FinalTask___2023" target="_blank">Открыть (на "GitHub")</a></dd>
+</dl>
+
+![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
+
+<a name="myTag_myTask"><h3>Консольное приложение магазина игрушек (на Java)</h3></a>
+
+<!-- "GitHub" -->
+<dl>
+  <dd><a href="https://github.com/DAYIAWAN/Course-at-GB/tree/main/myCourses/5___FinalTask___2023" target="_blank">Открыть (на "GitHub")</a></dd>
+</dl>
+
+![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
 ![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
 ![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
 
