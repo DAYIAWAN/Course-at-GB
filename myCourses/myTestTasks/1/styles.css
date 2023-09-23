@@ -1,0 +1,9 @@
+/* styles.css */
+.separator {
+    -fx-background-color: black;
+    -fx-padding: 0.5;
+    -fx-background-radius: 5;
+}
+.separator:pressed {
+    -fx-background-color: black;
+}
