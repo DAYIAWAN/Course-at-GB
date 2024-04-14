@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.registration {
+    margin-top: 64px;
+    margin-bottom: 96px;
+    display: flex;
+    gap: 128px;
+}
+
+.contact-info {
+
+    &__name {
+        color: $collorTextB;
+        font-family: Lato;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        
+    }
+
+    &__input {
+        display: block;
+        color: #B1B1B1;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        margin-top: 20px;
+        border: 1px solid #A4A4A4;
+        padding: 13px 17px 16px ;
+        width: 360px;
+    }
+
+    &__radio {
+        margin-top: 31px;
+        margin-bottom: 31px;
+        display: flex;
+    align-items: center;
+    }
+
+    &__gender {
+        width: 17px;
+        height: 17px;
+        flex-shrink: 0;
+        margin-right: 10px;
+    }
+
+    &__gender+label {
+        color: $collorTextB;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        border: 1px solid #A4A4A4;
+        border: none;
+        margin-right: 20px;
+    }
+
+    &__gender[type='radio'] {
+        
+        accent-color: $colorSite;
+    }
+
+    &__gender:checked {
+        background-color: $colorSite;
+        background: $colorSite;
+        color: $colorSite;
+    }
+
+    &__text {
+        color: #B1B1B1;
+        max-width: 359px;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        margin-top: 15px;
+    }
+
+    &_btn {
+        color: #FFF;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding: 16px 20px 17px 29px;
+        background-color: $colorSite;
+        border: 1px $colorSite solid;
+        margin-top: 39px;
+        transition: all 0.3s;
+    }
+
+    &_btn:hover {
+        color: #FFF;
+        background-color: $colorSite;
+        border-color: #FFF;
+    }
+
+    &_btn svg {
+        margin-left: 20px;
+        
+    }
+    
+}
+
+.loyalty {
+    color: $collorTextB;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;    
+    
+
+    &__subtitle {
+        color: $collorTextB;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        margin-bottom: 23px;
+    }
+
+    &__text {
+        max-width: 652px;
+        margin-bottom: 22px;
+    }
+
+    &__list {
+        padding-left: 0;
+        list-style-type: none;
+        list-style-image: url(img/Vector.png);
+        margin-left: 23px;
+    }
+
+    &_item {
+        margin-bottom: 16px;
+        padding-left: 23px;
+     
+    }
+}
+
+/* Блок для планшета */
+
+@media (max-width: 1024px) {
+    .registration {
+        margin-top: 40px;
+        gap: 22px;
+    }
+
+    .loyalty {
+        font-size: 16px;
+        &__subtitle {
+            font-size: 16px;
+            margin-bottom: 32px;
+        }
+        &__text {
+            max-width: 354px;
+        }
+        &_item {
+            max-width: 310px;
+            margin-bottom: 23px;
+        }
+        
+    }
+
+    /* Блок для мобильной версии */
+
+    @media (min-width: 320px) and (max-width: 767px) {
+        .registration {
+            flex-wrap: wrap;
+        }
+        
+        .contact-info__input {
+            width: 300px;
+        }
+    }
+}

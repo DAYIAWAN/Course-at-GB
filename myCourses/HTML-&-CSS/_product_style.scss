@@ -1,0 +1,366 @@
+@import "variable";
+
+
+// блок breadcrumb
+
+.breadcrumb {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #F8F3F4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0;
+    
+    &__subtitle {
+        color: $colorSite;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    &__nav {
+        list-style: none;
+        margin-bottom: 0;
+        
+    }
+
+    &__name:not(:last-child)::after {
+        content: "/";
+        color: #636363;
+        padding-right: 4px;
+        padding-left: 2px;
+        
+    }
+
+    &__name {
+        display: inline;
+        
+    }
+
+    &__link {
+        color: #636363;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+    &__name:hover a{
+        color: $colorSite;
+    }
+
+    &__name__sub {
+        color: $colorSite;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
+
+// блок slider
+
+.slider{
+    padding-top: 10px;
+    padding-bottom: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F7F7F7;
+
+    &__btn {
+        padding: 8px;
+        background-color: #2A2A2A26;
+        transition: all 0.3s;
+    }
+
+    &__btn:hover path {
+        fill:$colorSite
+    }
+}
+
+// блок product_description
+
+.box {
+    position: relative;
+    height: 601px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    top: -65px;
+}
+.product__description  {
+    background-color: #FFFFFF;
+    width: 1141px;
+    flex-shrink: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    margin-bottom: 129px;
+    border: 1px #EAEAEA solid;
+    
+    &__subtitle-ping {
+        margin-bottom: 12px;
+        color: $colorSite;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+    &__subtitle {
+        margin-top: 12px;
+        margin-bottom: 49px;
+        color: #4D4D4D;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+    &__text {
+        margin-bottom: 33px;
+        color: #5E5E5E;
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        max-width: 555px;
+    }
+
+    &__price {
+        margin-bottom: 65px;
+        color: $colorSite;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+    &__sort {
+        margin-top: 65px;
+        margin-bottom: 49px;
+        display: flex;
+        gap: 23px;
+        &__select {
+            color: #6F6E6E;
+            font-family: Lato;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            border: none;
+        }
+    }
+
+    &__button {
+        width: 212px;
+        height: 48.406px;
+        flex-shrink: 0;
+        border: 1px $colorSite solid;
+        display: flex;
+        align-items: center;
+        gap: 23px;
+        padding-left: 24px;
+        background-color: #FFFFFF;
+        transition: all 0.3s;
+
+
+
+        &__text {
+            margin-bottom: 0;
+            color: $colorSite;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+    }
+
+    &__button:hover {
+        background-color: $colorSite;
+        color: $collorTextW;
+        border: none;
+        
+    }
+
+    &__button:hover .product__description__button__text{ 
+        color: $collorTextW;
+    }
+    &__button:hover path{
+        fill: $collorTextW;        
+    }
+
+}
+
+
+// блок products
+
+.top__product {
+    margin-bottom: 128px;
+}
+
+.box__products {
+    margin-bottom: 128px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px 30px;
+    justify-content: center;
+}
+
+.items__products {
+    background-color: #F8F8F8;
+    display: flex;
+    flex-direction: column;
+}
+
+.box__img__products {
+    position: relative;
+    width: 360px;
+    height: 420px;
+    transition: all 0.3s;
+}
+
+.img__items__products {
+    position: absolute;
+} 
+
+.hover_products {
+    display: none;
+} 
+
+.box__img__products:hover .hover_products{
+    position: absolute;
+    display: block;
+    display: flex;
+}
+
+.content__products {
+    padding: 24px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.subtitle__items__products {
+    color: #000;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text__items__products {
+    color: #5D5D5D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    max-width: 315px;
+}
+
+.price__items__products {
+    color: $colorSite;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Блок для планшета */
+
+@media (max-width: 1024px) {
+    .box {
+        position: static;
+        margin-bottom: 129px;
+    }
+
+    .product__description {
+        // position: ;
+    }
+
+    .box__products {
+        flex-direction: row-reverse;
+    }
+
+    .items__products:last-child{
+        display: none;
+    }
+
+    /* Блок для мобильной версии */
+
+    @media (min-width: 320px) and (max-width: 767px) {
+        .breadcrumb {
+           gap: 32px; 
+           justify-content: center;
+           padding-top: 24px;
+           padding-bottom: 46px;
+        }
+
+        .slider {
+            position: relative;
+            padding-top: 85px;
+            padding-bottom: 85px;
+            justify-content: center;
+        }
+
+        .slider__img img{
+            max-width: 374px;
+            max-height: 454px;
+
+        }
+
+        .slider__btn {
+            position: absolute;
+
+            &_1 {
+                left: 0;
+            }
+
+            &_2 {
+                right: 0;
+            }
+        }
+
+        .box {
+            
+        }
+
+        .product__description {
+            // position: relative;
+            margin-bottom: 64px;
+
+            &__text {
+                max-width: 300px;
+            }
+        }
+
+        .product__description__sort {
+            gap: 25px;
+            &__select {
+                font-size: 10px;
+            }
+
+            &__svg {
+                width: 175px;
+            }
+        }
+
+        .__subtitle {
+            margin-bottom: 32px;
+        }
+
+        .top__product {
+            margin-bottom: 64px;
+        }
+    }
+}
