@@ -156,7 +156,7 @@
 
 ## <<< ИТОГОВЫЕ РАБОТЫ >>>
 
-<a name="myTag_myTask"><h3>Готовый телефонный справочник, разработанный на Python</h3></a>
+<a name="myTag_myTask"><h3>Готовый телефонный справочник (Python)</h3></a>
 
 <!-- "GitHub" -->
 <dl>
@@ -165,7 +165,7 @@
 
 ![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
 
-<a name="myTag_myTask"><h3>Готовое приложение бронирования столиков в сети из трёх ресторанов (на выбор клиента), реализованное на Java</h3></a>
+<a name="myTag_myTask"><h3>Приложение бронирования столиков в сети из трёх ресторанов (Java)</h3></a>
 
 <!-- "GitHub" -->
 <dl>
@@ -174,7 +174,7 @@
 
 ![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
 
-<a name="myTag_myTask"><h3>Готовое приложение для Агентства по поиску вакансий, реализованное на Java через шаблон проектирования "Singleton"</h3></a>
+<a name="myTag_myTask"><h3>Приложение для Агентства по поиску вакансий, реализованное через шаблон проектирования "Singleton" (Java)</h3></a>
 
 <!-- "GitHub" -->
 <dl>
@@ -183,7 +183,7 @@
 
 ![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
 
-<a name="myTag_myTask"><h3>Консольное приложение заметок (на Python)</h3></a>
+<a name="myTag_myTask"><h3>Консольное приложение заметок (Python)</h3></a>
 
 <!-- "GitHub" -->
 <dl>
@@ -192,7 +192,7 @@
 
 ![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
 
-<a name="myTag_myTask"><h3>Консольное приложение магазина игрушек (на Java)</h3></a>
+<a name="myTag_myTask"><h3>Консольное приложение магазина игрушек (Java)</h3></a>
 
 <!-- "GitHub" -->
 <dl>
