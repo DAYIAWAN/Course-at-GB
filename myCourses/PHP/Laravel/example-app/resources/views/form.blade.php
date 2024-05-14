@@ -4,7 +4,7 @@
     <title>Форма</title>
 </head>
 <body>
-    <form method="POST" action="">
+    <form method="POST" action="/store_form">
         @csrf
         <label for="name">Имя:</label><br>
         <input type="text" id="name" name="name"><br>
