@@ -13,12 +13,10 @@ class FormProcessor extends Controller
 
     public function store(Request $request)
     {
-        // Здесь вы можете обработать данные формы, полученные из $request
-
-        // Например, вы можете просто вернуть все данные формы
-        // return $request->all();
-
-        // Или вы можете перенаправить пользователя обратно на форму
-        // return redirect('/userform');
+        return response()->json([
+            'name' => $request->input('name'),
+            'surname' => $request->input('surname'),
+            'email' => $request->input('email'),
+        ]);
     }
 }
