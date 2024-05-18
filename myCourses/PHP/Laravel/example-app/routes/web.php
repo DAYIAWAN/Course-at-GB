@@ -29,8 +29,13 @@ Route::get('/test_database', function () {
 
 Route::get('/test_database_update', function () {
     $employee = Employee::find(1);
-    $employee->surname = 'Петров';
-    $employee->save();
 
-    return "Employee updated successfully!";
+    if ($employee) {
+        $employee->surname = 'Петров';
+        $employee->save();
+
+        return "Employee updated successfully!";
+    } else {
+        return "Employee not found!";
+    }
 });
