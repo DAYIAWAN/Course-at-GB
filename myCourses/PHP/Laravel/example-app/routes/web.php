@@ -4,10 +4,27 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\FormProcessor;
 use App\Models\Employee;
 
+// Роут для корневой страницы
 Route::get('/', function () {
-    return view('welcome');
+    return view('home', [
+        'name' => 'Иван Иванов',
+        'age' => 25,
+        'position' => 'Разработчик',
+        'address' => 'ул. Ленина, д. 1'
+    ]);
 });
 
+// Роут для страницы контактов
+Route::get('/contacts', function () {
+    return view('contacts', [
+        'address' => 'ул. Пушкина, дом 1',
+        'post_code' => '123456',
+        'email' => 'example@example.com',
+        'phone' => '+7 (123) 456-78-90'
+    ]);
+});
+
+// Существующие роуты
 Route::get('/userform', [FormProcessor::class, 'index']);
 Route::post('/store_form', [FormProcessor::class, 'store']);
 
