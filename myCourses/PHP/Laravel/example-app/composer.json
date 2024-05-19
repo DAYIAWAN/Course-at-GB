@@ -8,6 +8,7 @@
         "php": "^8.2",
         "kris/laravel-form-builder": "*",
         "laravel/framework": "^11.0",
+        "laravel/telescope": "^5.0",
         "laravel/tinker": "^2.9",
         "rcrowe/twigbridge": "^0.14.3"
     },
