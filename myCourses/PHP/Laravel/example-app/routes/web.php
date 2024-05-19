@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\FormProcessor;
+use App\Http\Controllers\EmployeeController;
 use App\Models\Employee;
 
 // Роут для корневой страницы
@@ -56,3 +57,10 @@ Route::get('/test_database_update', function () {
         return "Employee not found!";
     }
 });
+
+// Новые маршруты для EmployeeController
+Route::get('/employee', [EmployeeController::class, 'index']);
+Route::post('/employee', [EmployeeController::class, 'store']);
+Route::get('/employee/{id}', [EmployeeController::class, 'show']);
+Route::get('/employee/path', [EmployeeController::class, 'getPath']);
+Route::get('/employee/url', [EmployeeController::class, 'getUrl']);
