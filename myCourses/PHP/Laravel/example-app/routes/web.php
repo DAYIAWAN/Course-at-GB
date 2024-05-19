@@ -59,13 +59,16 @@ Route::get('/test_database_update', function () {
     }
 });
 
-// Новые маршруты для EmployeeController
+// Маршруты для EmployeeController
 Route::get('/employee', [EmployeeController::class, 'index']);
 Route::post('/employee', [EmployeeController::class, 'store']);
 Route::get('/employee/{id}', [EmployeeController::class, 'show']);
 Route::get('/employee/path', [EmployeeController::class, 'getPath']);
 Route::get('/employee/url', [EmployeeController::class, 'getUrl']);
 
-// Новые маршруты для BookController
+// Маршруты для BookController
 Route::get('/index', [BookController::class, 'index']);
 Route::post('/store', [BookController::class, 'store']);
+Route::get('/show/{id}', [BookController::class, 'show']);
+Route::get('/path', [BookController::class, 'getPath']);
+Route::get('/url', [BookController::class, 'getUrl']);
