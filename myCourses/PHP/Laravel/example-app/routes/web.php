@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\FormProcessor;
 use App\Http\Controllers\EmployeeController;
 use App\Http\Controllers\BookController;
+use App\Http\Controllers\UserController;
+use App\Http\Controllers\PdfGeneratorController;
 use App\Models\Employee;
 
 // Роут для корневой страницы
@@ -72,3 +74,9 @@ Route::post('/store', [BookController::class, 'store']);
 Route::get('/show/{id}', [BookController::class, 'show']);
 Route::get('/path', [BookController::class, 'getPath']);
 Route::get('/url', [BookController::class, 'getUrl']);
+
+// Новые маршруты для UserController и PdfGeneratorController
+Route::get('/users', [UserController::class, 'index']); // Получение всех пользователей
+Route::get('/users/{id}', [UserController::class, 'show']); // Получение одного пользователя по id
+Route::post('/users', [UserController::class, 'store']); // Создание нового пользователя
+Route::get('/users/{id}/pdf', [PdfGeneratorController::class, 'generatePdf']); // Получение данных о пользователе в виде PDF-файла
