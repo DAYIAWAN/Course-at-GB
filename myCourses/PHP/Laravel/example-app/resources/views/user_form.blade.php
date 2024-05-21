@@ -6,7 +6,7 @@
     <title>Добавить пользователя</title>
 </head>
 <body>
-    <form action="/users" method="POST">
+    <form action="/store_form" method="POST">
         @csrf
         <label for="name">Имя:</label>
         <input type="text" id="name" name="name" required maxlength="50">

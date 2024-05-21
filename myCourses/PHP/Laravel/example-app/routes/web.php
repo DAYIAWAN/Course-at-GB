@@ -11,20 +11,20 @@ use App\Models\Employee;
 // Роут для корневой страницы
 Route::get('/', function () {
     return view('home', [
-        'name' => 'Иван Иванов',
-        'age' => 25,
+        'name' => 'Мотояма Д.Х.',
+        'age' => 38,
         'position' => 'Разработчик',
-        'address' => 'ул. Ленина, д. 1'
+        'address' => 'ул. Мясницкая, дом 26'
     ]);
 });
 
 // Роут для страницы контактов
 Route::get('/contacts', function () {
     return view('contacts', [
-        'address' => 'ул. Пушкина, дом 1',
-        'post_code' => '123456',
+        'address' => 'ул. Мясницкая, дом 26',
+        'post_code' => '101000',
         'email' => 'example@example.com',
-        'phone' => '+7 (123) 456-78-90'
+        'phone' => '+7 (000) 000-00-00'
     ]);
 });
 
@@ -34,13 +34,13 @@ Route::post('/store_form', [FormProcessor::class, 'store']);
 
 Route::get('/test_database', function () {
     $employee = new Employee;
-    $employee->surname = 'Иванов';
-    $employee->name = 'Иван';
-    $employee->patronymic = 'Иванович';
-    $employee->birth_date = '1950-01-01';
+    $employee->surname = 'Мотояма';
+    $employee->name = 'Дайяван';
+    $employee->patronymic = 'Харутонарджима';
+    $employee->birth_date = '1985-09-09';
     $employee->birth_place = 'Москва';
     $employee->work_place = 'ООО "Рога и Копыта"';
-    $employee->phone = '+7 926 000-00-00';
+    $employee->phone = '+7 (000) 000-00-00';
     $employee->email = 'info@example.com';
     $employee->website = 'https://example.com';
     $employee->save();
@@ -52,7 +52,7 @@ Route::get('/test_database_update', function () {
     $employee = Employee::find(1);
 
     if ($employee) {
-        $employee->surname = 'Петров';
+        $employee->surname = 'Проверка_user_ID_1';
         $employee->save();
 
         return "Employee updated successfully!";
