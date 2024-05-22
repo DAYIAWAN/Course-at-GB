@@ -19,16 +19,15 @@ class FormProcessor extends Controller
             'name' => 'required|max:50',
             'surname' => 'required|max:50',
             'email' => 'required|email',
+            'password' => 'required', // Добавлена валидация пароля
         ]);
 
         // Создание нового пользователя
         $user = new User($validatedData);
+        $user->password = bcrypt($request->password); // Добавлено хеширование пароля
         $user->save();
 
-        return response()->json([
-            'name' => $request->input('name'),
-            'surname' => $request->input('surname'),
-            'email' => $request->input('email'),
-        ]);
+        // Перенаправление на страницу с PDF
+        return redirect()->route('users.pdf', ['id' => $user->id]);
     }
 }

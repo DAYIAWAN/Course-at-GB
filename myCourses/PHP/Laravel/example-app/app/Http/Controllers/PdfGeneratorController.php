@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\User;
 use PDF;
+use Dompdf\Dompdf;
 
 class PdfGeneratorController extends Controller
 {
@@ -16,6 +17,16 @@ class PdfGeneratorController extends Controller
         }
 
         $pdf = PDF::loadView('user_pdf', compact('user'));
-        return $pdf->download('user_'.$user->id.'.pdf');
+
+        // Создаем экземпляр Dompdf и устанавливаем опцию
+        $dompdf = new Dompdf();
+        $dompdf->set_option('isHtml5ParserEnabled', true);
+
+        // Загружаем HTML из сгенерированного PDF
+        $dompdf->loadHtml($pdf->output());
+
+        // Рендерим PDF и возвращаем его
+        $dompdf->render();
+        return $dompdf->stream('user_'.$user->id.'.pdf');
     }
 }
