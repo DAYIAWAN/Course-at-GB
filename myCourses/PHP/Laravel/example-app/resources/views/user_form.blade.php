@@ -17,6 +17,9 @@
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
 
+        <label for="password">Пароль:</label> <!-- Добавлено поле ввода пароля -->
+        <input type="password" id="password" name="password" required>
+
         <button type="submit">Добавить</button>
     </form>
 </body>
