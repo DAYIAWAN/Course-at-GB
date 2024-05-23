@@ -11,11 +11,14 @@ class PdfGeneratorController extends Controller
 {
     public function generatePdf($id)
     {
+        // Находим пользователя по ID
         $user = User::find($id);
+        // Если пользователь не найден, возвращаем ошибку
         if (!$user) {
             return response()->json(['message' => 'Пользователь не найден'], 404);
         }
 
+        // Генерируем PDF из представления 'user_pdf' и данных пользователя
         $pdf = PDF::loadView('user_pdf', compact('user'));
 
         // Создаем экземпляр Dompdf и устанавливаем опцию

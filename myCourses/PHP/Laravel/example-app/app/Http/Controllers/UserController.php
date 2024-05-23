@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\User;
+use PDF; // Добавьте эту строку
 
 class UserController extends Controller
 {
@@ -23,7 +24,8 @@ class UserController extends Controller
         $user->email = $request->input('email');
         $user->save();
 
-        return redirect('/users');
+        // Перенаправление на PDF
+        return redirect('/users/' . $user->id . '/pdf');
     }
 
     // Функция для получения всех пользователей
@@ -39,6 +41,30 @@ class UserController extends Controller
         $user = User::find($id);
         if ($user) {
             return response()->json($user);
+        } else {
+            return response()->json(['message' => 'Пользователь не найден'], 404);
+        }
+    }
+
+    // Функция для отображения формы
+    public function form()
+    {
+        $user = User::first(); // или любой другой способ получения пользователя
+
+        if ($user) {
+            return view('form', compact('user'));
+        } else {
+            return response()->json(['message' => 'Пользователь не найден'], 404);
+        }
+    }
+
+    // Функция для генерации PDF
+    public function generatePdf($id)
+    {
+        $user = User::find($id);
+        if ($user) {
+            $pdf = PDF::loadView('user_pdf', ['user' => $user]); // заменено 'pdf_view' на 'user_pdf'
+            return $pdf->download('document.pdf');
         } else {
             return response()->json(['message' => 'Пользователь не найден'], 404);
         }

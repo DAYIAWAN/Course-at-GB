@@ -4,15 +4,12 @@
     <title>Форма</title>
 </head>
 <body>
-    <form method="POST" action="/store_form">
+    <form action="/users/{{ $user->id }}/pdf" method="POST">
         @csrf
-        <label for="name">Имя:</label><br>
-        <input type="text" id="name" name="name"><br>
-        <label for="surname">Фамилия:</label><br>
-        <input type="text" id="surname" name="surname"><br>
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email"><br>
-        <input type="submit" value="Отправить">
+        <input type="text" name="name" value="{{ $user->name }}">
+        <input type="text" name="surname" value="{{ $user->surname }}">
+        <input type="email" name="email" value="{{ $user->email }}">
+        <button type="submit">Отправить</button>
     </form>
 </body>
 </html>

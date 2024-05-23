@@ -17,7 +17,7 @@ class BookSeeder extends Seeder
         DB::table('books')->insert([
             'title' => 'Test Book',
             'author' => 'Test Author',
-            'genre' => 'Test Genre', // Добавьте это
+            'genre' => 'Test Genre',
         ]);
     }
 }
