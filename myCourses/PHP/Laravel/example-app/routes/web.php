@@ -30,7 +30,7 @@ Route::get('/contacts', function () {
 
 // Существующие роуты
 Route::get('/userform', [UserController::class, 'form']); // Добавленный роут
-Route::post('/users/{id}/pdf', [FormProcessor::class, 'store']); // Измененный роут
+Route::post('/users', [UserController::class, 'store']); // Измененный роут
 
 Route::get('/test_database', function () {
     $employee = new Employee;
@@ -79,4 +79,4 @@ Route::get('/url', [BookController::class, 'getUrl']);
 Route::get('/users', [UserController::class, 'index']); // Получение всех пользователей
 Route::get('/users/{id}', [UserController::class, 'show']); // Получение одного пользователя по id
 Route::post('/users', [UserController::class, 'store']); // Создание нового пользователя
-Route::get('/users/{id}/pdf', [PdfGeneratorController::class, 'generatePdf']); // Получение данных о пользователе в виде PDF-файла
+Route::post('/users/{id}/pdf', [UserController::class, 'generatePdf']); // Получение данных о пользователе в виде PDF-файла

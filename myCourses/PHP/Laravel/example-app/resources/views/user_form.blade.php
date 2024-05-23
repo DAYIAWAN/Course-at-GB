@@ -16,7 +16,7 @@
         </style>
     </head>
     <body>
-        <form action="/users/{{ $user->id }}/pdf" method="POST">
+        <form action="/users/{{ $user->id }}/pdf" method="GET">
             @csrf
             <input type="text" name="name" value="{{ $user->name }}">
             <input type="text" name="surname" value="{{ $user->surname }}">
