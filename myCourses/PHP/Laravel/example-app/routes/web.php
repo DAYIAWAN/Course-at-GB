@@ -30,7 +30,7 @@ Route::get('/contacts', function () {
 
 // Существующие роуты
 Route::get('/userform', [FormProcessor::class, 'index']);
-Route::post('/store_form', [FormProcessor::class, 'store']);
+Route::post('/users/{id}/pdf', [FormProcessor::class, 'store']); // Измененный роут
 
 Route::get('/test_database', function () {
     $employee = new Employee;

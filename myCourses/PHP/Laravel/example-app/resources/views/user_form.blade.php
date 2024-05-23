@@ -1,26 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Добавить пользователя</title>
-</head>
-<body>
-    <form action="/store_form" method="POST">
-        @csrf
-        <label for="name">Имя:</label>
-        <input type="text" id="name" name="name" required maxlength="50">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <label for="surname">Фамилия:</label>
-        <input type="text" id="surname" name="surname" required maxlength="50">
+        <title>Laravel</title>
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.bunny.net">
+        <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
 
-        <label for="password">Пароль:</label> <!-- Добавлено поле ввода пароля -->
-        <input type="password" id="password" name="password" required>
-
-        <button type="submit">Добавить</button>
-    </form>
-</body>
+        <!-- Styles -->
+        <style>
+            /* Ваш CSS код */
+        </style>
+    </head>
+    <body>
+        <form action="/users/{{ $user->id }}/pdf" method="POST">
+            @csrf
+            <input type="text" name="name" value="{{ $user->name }}">
+            <input type="text" name="surname" value="{{ $user->surname }}">
+            <input type="email" name="email" value="{{ $user->email }}">
+            <button type="submit">Отправить</button>
+        </form>
+        <!-- Остальной HTML код -->
+    </body>
 </html>
