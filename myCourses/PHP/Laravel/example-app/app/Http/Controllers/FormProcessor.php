@@ -9,10 +9,11 @@ class FormProcessor extends Controller
 {
     public function index()
     {
+        // Возвращает представление формы
         return view('form');
     }
 
-    public function store(Request $request)
+    public function store(Request $request, $id) // Добавлен параметр $id
     {
         // Валидация данных
         $validatedData = $request->validate([
@@ -23,11 +24,16 @@ class FormProcessor extends Controller
         ]);
 
         // Создание нового пользователя
-        $user = new User($validatedData);
-        $user->password = bcrypt($request->password); // Добавлено хеширование пароля
-        $user->save();
+        $user = User::find($id); // Изменено на поиск пользователя по id
+        if ($user) {
+            $user->fill($validatedData);
+            $user->password = bcrypt($request->password); // Добавлено хеширование пароля
+            $user->save();
 
-        // Перенаправление на страницу с PDF
-        return redirect()->route('users.pdf', ['id' => $user->id]);
+            // Перенаправление на страницу с PDF
+            return redirect()->route('users.pdf', ['id' => $user->id]);
+        } else {
+            return "Пользователь не найден!";
+        }
     }
 }
