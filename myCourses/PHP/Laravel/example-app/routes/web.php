@@ -29,7 +29,7 @@ Route::get('/contacts', function () {
 });
 
 // Существующие роуты
-Route::get('/userform', [FormProcessor::class, 'index']);
+Route::get('/userform', [UserController::class, 'form']); // Добавленный роут
 Route::post('/users/{id}/pdf', [FormProcessor::class, 'store']); // Измененный роут
 
 Route::get('/test_database', function () {
