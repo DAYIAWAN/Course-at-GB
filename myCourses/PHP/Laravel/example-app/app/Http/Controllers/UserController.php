@@ -43,4 +43,12 @@ class UserController extends Controller
             return response()->json(['message' => 'Пользователь не найден'], 404);
         }
     }
+
+    // Функция для отображения формы
+    public function form()
+    {
+        $user = User::first(); // или любой другой способ получения пользователя
+
+        return view('form', compact('user'));
+    }
 }
