@@ -49,6 +49,10 @@ class UserController extends Controller
     {
         $user = User::first(); // или любой другой способ получения пользователя
 
-        return view('form', compact('user'));
+        if ($user) {
+            return view('form', compact('user'));
+        } else {
+            return response()->json(['message' => 'Пользователь не найден'], 404);
+        }
     }
 }
