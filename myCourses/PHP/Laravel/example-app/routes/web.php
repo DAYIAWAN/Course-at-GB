@@ -80,3 +80,11 @@ Route::get('/users', [UserController::class, 'index']); // Получение в
 Route::get('/users/{id}', [UserController::class, 'show']); // Получение одного пользователя по id
 Route::post('/users', [UserController::class, 'store']); // Создание нового пользователя
 Route::post('/users/{id}/pdf', [UserController::class, 'generatePdf']); // Получение данных о пользователе в виде PDF-файла
+
+// Добавленный роут для логов
+Route::get('/logs', function() {
+    $logs = App\Models\Log::all();
+    return view('logs', ['logs' => $logs]);
+});
+
+//
