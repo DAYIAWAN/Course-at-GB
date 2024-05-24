@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "Product 1",
+    "description": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
+    "price": "50.00",
+    "image": "./img/Rectangle 15 copy.png"
+  },
+  {
+    "id": 2,
+    "name": "Product 2",
+    "description": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
+    "price": "60.00",
+    "image": "./img/Rectangle 15 copy.png"
+  },
+  {
+    "id": 3,
+    "name": "Product 3",
+    "description": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
+    "price": "70.00",
+    "image": "./img/Rectangle 15 copy.png"
+  },
+  {
+    "id": 4,
+    "name": "Product 4",
+    "description": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
+    "price": "80.00",
+    "image": "./img/Rectangle 15 copy.png"
+  },
+  {
+    "id": 5,
+    "name": "Product 5",
+    "description": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
+    "price": "90.00",
+    "image": "./img/Rectangle 15 copy.png"
+  },
+  {
+    "id": 6,
+    "name": "Product 6",
+    "description": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
+    "price": "100.00",
+    "image": "./img/Rectangle 15 copy.png"
+  },
+  {
+    "id": 7,
+    "name": "Product 7",
+    "description": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
+    "price": "110.00",
+    "image": "./img/Rectangle 15 copy.png"
+  },
+  {
+    "id": 8,
+    "name": "Product 8",
+    "description": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
+    "price": "120.00",
+    "image": "./img/Rectangle 15 copy.png"
+  },
+  {
+    "id": 9,
+    "name": "Product 9",
+    "description": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
+    "price": "130.00",
+    "image": "./img/Rectangle 15 copy.png"
+  }
+]
