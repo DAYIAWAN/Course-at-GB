@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bucket {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 30px;
+}
+
+.card {
+    display: flex;
+    /* gap: 30px; */
+    max-width: 550px;
+    box-shadow: 17px 19px 24px 0 rgba(0, 0, 0, 0.13);
+    position: relative;
+}
+.photo {
+    max-width: 50%;
+}
+.info {
+    padding: 22px 97px 62px 31px;
+}
+.inho__heading {
+    font: 400 24px "Lato", sans-serif;
+    color: #222;
+    margin-bottom: 42px;
+}
+.info__content {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.info__content-text {
+    font: 400 22px "Lato", sans-serif;
+    color: #575757;
+}
+.color-pink {
+    color: #ef5b70;
+}
+.color-grey {
+    color: #6f6e6e;
+}
+.quantaty {
+    width: 44px;
+    height: 24px;
+    border: 1px solid #eaeaea;
+    font: 400 18px "Lato", sans-serif;
+    color: #656565;
+    padding-left: 10px;
+}
+
+.button-close {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    top: 28px;
+    right: 22px;
+    width: 20px;
+    height: 20px;
+}
