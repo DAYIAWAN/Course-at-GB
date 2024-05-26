@@ -40,7 +40,7 @@ class UserController extends Controller
     {
         $user = User::find($id);
         if ($user) {
-            return response()->json($user);
+            return view('welcome', ['user' => $user]);
         } else {
             return response()->json(['message' => 'Пользователь не найден'], 404);
         }

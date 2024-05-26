@@ -6,18 +6,24 @@ use App\Http\Controllers\EmployeeController;
 use App\Http\Controllers\BookController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\PdfGeneratorController;
+use App\Http\Controllers\ProfileController;
 use App\Models\Employee;
 use App\Models\News;
 use App\Events\NewsHidden;
 
 // Роут для корневой страницы
 Route::get('/', function () {
-    return view('home', [
-        'name' => 'Мотояма Д.Х.',
-        'age' => 38,
-        'position' => 'Разработчик',
-        'address' => 'ул. Мясницкая, дом 26'
-    ]);
+    return view('welcome');
+});
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth', 'verified'])->name('dashboard');
+
+Route::middleware('auth')->group(function () {
+    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
+    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
 // Роут для страницы контактов
@@ -110,3 +116,5 @@ Route::get('news/{id}/hide', function ($id) {
 
     return 'News hidden';
 });
+
+require __DIR__.'/auth.php';
