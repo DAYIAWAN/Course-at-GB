@@ -31,6 +31,8 @@ class UserController extends Controller
     // Функция для получения всех пользователей
     public function index()
     {
+        $this->authorize('viewAny', User::class);
+
         $users = User::all();
         return response()->json($users);
     }
