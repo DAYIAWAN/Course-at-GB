@@ -7,6 +7,8 @@ use App\Http\Controllers\BookController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\PdfGeneratorController;
 use App\Models\Employee;
+use App\Models\News;
+use App\Events\NewsHidden;
 
 // Роут для корневой страницы
 Route::get('/', function () {
@@ -87,4 +89,24 @@ Route::get('/logs', function() {
     return view('logs', ['logs' => $logs]);
 });
 
-//
+// Добавленные маршруты для создания и скрытия новостей
+Route::get('news/create-test', function () {
+    $news = new News();
+
+    $news->title = 'Test news title';
+    $news->body = 'Test news body';
+
+    $news->save();
+
+    return $news;
+});
+
+Route::get('news/{id}/hide', function ($id) {
+    $news = News::findOrFail($id);
+    $news->hidden = true;
+    $news->save();
+
+    NewsHidden::dispatch($news);
+
+    return 'News hidden';
+});
