@@ -20,7 +20,7 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
-Route::middleware(['auth', 'checkRole'])->group(function () {
+Route::middleware(['auth', 'CheckRole'])->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
@@ -84,10 +84,10 @@ Route::get('/path', [BookController::class, 'getPath']);
 Route::get('/url', [BookController::class, 'getUrl']);
 
 // Новые маршруты для UserController и PdfGeneratorController
-Route::get('/users', [UserController::class, 'index'])->middleware('checkRole'); // Получение всех пользователей
-Route::get('/users/{id}', [UserController::class, 'show'])->middleware('checkRole'); // Получение одного пользователя по id
-Route::post('/users', [UserController::class, 'store'])->middleware('checkRole'); // Создание нового пользователя
-Route::post('/users/{id}/pdf', [UserController::class, 'generatePdf'])->middleware('checkRole'); // Получение данных о пользователе в виде PDF-файла
+Route::get('/users', [UserController::class, 'index'])->middleware('CheckRole'); // Получение всех пользователей
+Route::get('/users/{id}', [UserController::class, 'show'])->middleware('CheckRole'); // Получение одного пользователя по id
+Route::post('/users', [UserController::class, 'store'])->middleware('CheckRole'); // Создание нового пользователя
+Route::post('/users/{id}/pdf', [UserController::class, 'generatePdf'])->middleware('CheckRole'); // Получение данных о пользователе в виде PDF-файла
 
 // Добавленный роут для логов
 Route::get('/logs', function() {
