@@ -8,6 +8,7 @@
         "php": "^8.2",
         "barryvdh/laravel-dompdf": "^2.2",
         "kris/laravel-form-builder": "*",
+        "laravel/breeze": "^2.0",
         "laravel/framework": "^11.0",
         "laravel/telescope": "^5.0",
         "laravel/tinker": "^2.9",
