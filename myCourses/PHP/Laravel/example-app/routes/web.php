@@ -98,7 +98,7 @@ Route::get('news/create-test', function () {
 
     $news->save();
 
-    return $news;
+    return view('news.create', ['data' => $news]);
 });
 
 Route::get('news/{id}/hide', function ($id) {
