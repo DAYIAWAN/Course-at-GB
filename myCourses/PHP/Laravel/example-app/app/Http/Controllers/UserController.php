@@ -31,6 +31,8 @@ class UserController extends Controller
     // Функция для получения всех пользователей
     public function index()
     {
+        $this->authorize('viewAny', User::class);
+
         $users = User::all();
         return response()->json($users);
     }
@@ -40,7 +42,7 @@ class UserController extends Controller
     {
         $user = User::find($id);
         if ($user) {
-            return response()->json($user);
+            return view('welcome', ['user' => $user]);
         } else {
             return response()->json(['message' => 'Пользователь не найден'], 404);
         }

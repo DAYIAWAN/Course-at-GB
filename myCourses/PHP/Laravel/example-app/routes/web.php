@@ -6,18 +6,24 @@ use App\Http\Controllers\EmployeeController;
 use App\Http\Controllers\BookController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\PdfGeneratorController;
+use App\Http\Controllers\ProfileController;
 use App\Models\Employee;
 use App\Models\News;
 use App\Events\NewsHidden;
 
 // Роут для корневой страницы
 Route::get('/', function () {
-    return view('home', [
-        'name' => 'Мотояма Д.Х.',
-        'age' => 38,
-        'position' => 'Разработчик',
-        'address' => 'ул. Мясницкая, дом 26'
-    ]);
+    return view('welcome');
+});
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth', 'verified'])->name('dashboard');
+
+Route::middleware(['auth', 'checkRole'])->group(function () {
+    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
+    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
 // Роут для страницы контактов
@@ -78,10 +84,10 @@ Route::get('/path', [BookController::class, 'getPath']);
 Route::get('/url', [BookController::class, 'getUrl']);
 
 // Новые маршруты для UserController и PdfGeneratorController
-Route::get('/users', [UserController::class, 'index']); // Получение всех пользователей
-Route::get('/users/{id}', [UserController::class, 'show']); // Получение одного пользователя по id
-Route::post('/users', [UserController::class, 'store']); // Создание нового пользователя
-Route::post('/users/{id}/pdf', [UserController::class, 'generatePdf']); // Получение данных о пользователе в виде PDF-файла
+Route::get('/users', [UserController::class, 'index'])->middleware('checkRole'); // Получение всех пользователей
+Route::get('/users/{id}', [UserController::class, 'show'])->middleware('checkRole'); // Получение одного пользователя по id
+Route::post('/users', [UserController::class, 'store'])->middleware('checkRole'); // Создание нового пользователя
+Route::post('/users/{id}/pdf', [UserController::class, 'generatePdf'])->middleware('checkRole'); // Получение данных о пользователе в виде PDF-файла
 
 // Добавленный роут для логов
 Route::get('/logs', function() {
@@ -110,3 +116,5 @@ Route::get('news/{id}/hide', function ($id) {
 
     return 'News hidden';
 });
+
+require __DIR__.'/auth.php';
