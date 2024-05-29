@@ -47,7 +47,7 @@ Route::get('/test_database', function () {
     $employee->patronymic = 'Харутонарджима';
     $employee->birth_date = '1985-09-09';
     $employee->birth_place = 'Москва';
-    $employee->work_place = 'ООО "Рога и Копыта"';
+    $employee->work_place = 'ПАО "Рога и Копыта"';
     $employee->phone = '+7 (000) 000-00-00';
     $employee->email = 'info@example.com';
     $employee->website = 'https://example.com';
