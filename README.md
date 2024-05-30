@@ -203,7 +203,7 @@
 
 ![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
 
-<a name="myTag_myTask"><h3>Консольное приложение заметок (Python)</h3></a>
+<a name="myTag_myTask"><h3>Консольное приложение заметок / записной книжки (Python)</h3></a>
 
 <!-- "GitHub" -->
 <dl>
@@ -217,6 +217,15 @@
 <!-- "GitHub" -->
 <dl>
   <dd><a href="https://github.com/DAYIAWAN/Course-at-GB/tree/main/myCourses/5___FinalTask___2023" target="_blank">Открыть (на "GitHub")</a></dd>
+</dl>
+
+![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
+
+<a name="myTag_myTask"><h3>Телеграм-бот собственной разработки (Python)</h3></a>
+
+<!-- "GitHub" -->
+<dl>
+  <dd><a href="https://t.me/MOTOYAMA_bot" target="_blank">Открыть Телеграм-бот</a></dd>
 </dl>
 
 ![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
