@@ -3,8 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use GuzzleHttp\Client;
-use GuzzleHttp\RequestOptions;
+use Illuminate\Support\Facades\Http;
 
 class TelegramController extends Controller
 {
@@ -31,19 +30,16 @@ class TelegramController extends Controller
         $chatId = $request->input('chat_id');
         $text = $request->input('text');
 
-        // Создаем экземпляр Guzzle HTTP-клиента с отключенной проверкой SSL
-        $client = new Client(['verify' => false]);
-
-        // Отправляем сообщение в указанный чат
-        $response = $client->post('https://api.telegram.org/bot' . env('TELEGRAM_BOT_TOKEN') . '/sendMessage', [
-            RequestOptions::JSON => [
-                'chat_id' => $chatId,
-                'text' => $text,
-            ]
+        // Отправляем сообщение в указанный чат, отключая проверку SSL
+        $response = Http::withOptions([
+            'verify' => false
+        ])->post('https://api.telegram.org/bot' . env('TELEGRAM_BOT_TOKEN') . '/sendMessage', [
+            'chat_id' => $chatId,
+            'text' => $text,
         ]);
 
         // Проверяем успешность запроса
-        if ($response->getStatusCode() == 200) {
+        if ($response->successful()) {
             return response()->json(['status' => 'success']);
         } else {
             return response()->json(['status' => 'error', 'message' => 'Failed to send message to Telegram']);
