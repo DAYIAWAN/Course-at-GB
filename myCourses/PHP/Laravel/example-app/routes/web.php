@@ -10,6 +10,7 @@ use App\Http\Controllers\ProfileController;
 use App\Models\Employee;
 use App\Models\News;
 use App\Events\NewsHidden;
+use Telegram\Bot\Laravel\Facades\Telegram;
 
 // Роут для корневой страницы
 Route::get('/', function () {
@@ -115,6 +116,16 @@ Route::get('news/{id}/hide', function ($id) {
     NewsHidden::dispatch($news);
 
     return 'News hidden';
+});
+
+// Тестовый маршрут для Telegram
+Route::get('test-telegram', function () {
+    Telegram::sendMessage([
+        'chat_id' => env('TELEGRAM_CHANNEL_ID', ''),
+        'parse_mode' => 'html',
+        'text' => 'Произошло тестовое событие'
+    ]);
+    return response()->json(['status' => 'success']);
 });
 
 require __DIR__.'/auth.php';
