@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Http;
+use GuzzleHttp\Client;
 
 class TelegramController extends Controller
 {
@@ -30,27 +30,23 @@ class TelegramController extends Controller
         $chatId = $request->input('chat_id');
         $text = $request->input('text');
 
-        // Создание нового cURL ресурса
-        $ch = curl_init();
+        // Создаем экземпляр Guzzle HTTP-клиента
+        $client = new Client();
 
-        // Установка URL и других необходимых параметров
-        curl_setopt($ch, CURLOPT_URL, 'https://api.telegram.org/bot' . env('TELEGRAM_BOT_TOKEN') . '/sendMessage');
-        curl_setopt($ch, CURLOPT_POST, 1);
-        curl_setopt($ch, CURLOPT_POSTFIELDS, [
-            'chat_id' => $chatId,
-            'text' => $text,
+        // Отправляем сообщение в указанный чат
+        $response = $client->post('https://api.telegram.org/bot' . env('TELEGRAM_BOT_TOKEN') . '/sendMessage', [
+            'json' => [
+                'chat_id' => $chatId,
+                'text' => $text,
+            ],
+            'verify' => false, // Отключаем проверку SSL
         ]);
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        curl_setopt($ch, CURLOPT_CAINFO, 'C:/Program Files/PHP/cert/cacert.pem'); // Указание пути к файлу сертификата
-        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false); // Отключение проверки SSL
-        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false); // Отключение проверки хоста
 
-        // Выполнение запроса
-        $result = curl_exec($ch);
-
-        // Закрытие cURL ресурса
-        curl_close($ch);
-
-        return response()->json(['status' => 'success']);
+        // Проверяем успешность запроса
+        if ($response->getStatusCode() == 200) {
+            return response()->json(['status' => 'success']);
+        } else {
+            return response()->json(['status' => 'error', 'message' => 'Failed to send message to Telegram']);
+        }
     }
 }
