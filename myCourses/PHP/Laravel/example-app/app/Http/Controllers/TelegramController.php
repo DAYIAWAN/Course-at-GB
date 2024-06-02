@@ -33,8 +33,11 @@ class TelegramController extends Controller
         // Указываем путь к сертификату
         $certificatePath = 'C:/Program Files/PHP/cert/cacert.pem';
 
-        // Отправляем сообщение в указанный чат
-        $response = Http::withOptions(['verify' => $certificatePath])->post('https://api.telegram.org/bot' . env('TELEGRAM_BOT_TOKEN') . '/sendMessage', [
+        // Отключаем проверку SSL
+        $response = Http::withOptions([
+            'verify' => $certificatePath,
+            'curl' => [CURLOPT_SSL_VERIFYPEER => false, CURLOPT_SSL_VERIFYHOST => false],
+        ])->post('https://api.telegram.org/bot' . env('TELEGRAM_BOT_TOKEN') . '/sendMessage', [
             'chat_id' => $chatId,
             'text' => $text,
         ]);
