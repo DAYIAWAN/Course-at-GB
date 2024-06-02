@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use GuzzleHttp\Client;
+use GuzzleHttp\RequestOptions;
 
 class TelegramController extends Controller
 {
@@ -30,16 +31,15 @@ class TelegramController extends Controller
         $chatId = $request->input('chat_id');
         $text = $request->input('text');
 
-        // Создаем экземпляр Guzzle HTTP-клиента
-        $client = new Client();
+        // Создаем экземпляр Guzzle HTTP-клиента с отключенной проверкой SSL
+        $client = new Client(['verify' => false]);
 
         // Отправляем сообщение в указанный чат
         $response = $client->post('https://api.telegram.org/bot' . env('TELEGRAM_BOT_TOKEN') . '/sendMessage', [
-            'json' => [
+            RequestOptions::JSON => [
                 'chat_id' => $chatId,
                 'text' => $text,
-            ],
-            'verify' => false, // Отключаем проверку SSL
+            ]
         ]);
 
         // Проверяем успешность запроса
