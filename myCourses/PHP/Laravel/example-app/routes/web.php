@@ -124,11 +124,15 @@ Route::get('news/{id}/hide', function ($id) {
 
 // Test route for Telegram
 Route::get('test-telegram', function () {
-    Telegram::sendMessage([
-        'chat_id' => env('7251660834:AAGqonJPfIpn8EM1RtDyZt02RwPqp2ClVkM', ''),
+    $telegram = new \Telegram\Bot\Api(env('TELEGRAM_BOT_TOKEN'));
+    $telegram->getClient()->setDefaultOption('verify', false);
+
+    $telegram->sendMessage([
+        'chat_id' => env('TELEGRAM_CHAT_ID', ''),
         'parse_mode' => 'html',
         'text' => 'Произошло тестовое событие'
     ]);
+
     return response()->json(['status' => 'success']);
 });
 
