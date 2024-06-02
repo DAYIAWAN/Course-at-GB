@@ -30,23 +30,28 @@ class TelegramController extends Controller
         $chatId = $request->input('chat_id');
         $text = $request->input('text');
 
-        // Указываем путь к сертификату
-        $certificatePath = 'C:/Program Files/PHP/cert/cacert.pem';
+        // Создаем новый cURL ресурс
+        $ch = curl_init();
 
-        // Отключаем проверку SSL
-        $response = Http::withOptions([
-            'verify' => $certificatePath,
-            'curl' => [CURLOPT_SSL_VERIFYPEER => false, CURLOPT_SSL_VERIFYHOST => false],
-        ])->post('https://api.telegram.org/bot' . env('TELEGRAM_BOT_TOKEN') . '/sendMessage', [
+        // Устанавливаем URL и другие необходимые параметры
+        curl_setopt($ch, CURLOPT_URL, 'https://api.telegram.org/bot' . env('TELEGRAM_BOT_TOKEN') . '/sendMessage');
+        curl_setopt($ch, CURLOPT_POST, 1);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, [
             'chat_id' => $chatId,
             'text' => $text,
         ]);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
-        // Проверяем успешность запроса
-        if ($response->successful()) {
-            return response()->json(['status' => 'success']);
-        } else {
-            return response()->json(['status' => 'error', 'message' => 'Failed to send message to Telegram']);
-        }
+        // Отключаем проверку SSL
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+
+        // Выполняем запрос
+        $result = curl_exec($ch);
+
+        // Закрываем cURL ресурс
+        curl_close($ch);
+
+        return response()->json(['status' => 'success']);
     }
 }
