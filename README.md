@@ -221,7 +221,7 @@
 
 ![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
 
-<a name="myTag_myTask"><h3>Телеграм-бот собственной разработки (Python)</h3></a>
+<a name="myTag_myTask"><h3>Простой и удобный телеграм-бот для продажи товаров и услуг (Python)</h3></a>
 
 <!-- "GitHub" -->
 <dl>
