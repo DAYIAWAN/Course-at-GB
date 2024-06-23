@@ -1,11 +1,9 @@
 # Auto detect text files and perform LF normalization
 # https://motoyama.one
 * text=auto
-
 #
 # The above will handle all files NOT found below
 #
-
 #
 ## Documents
 #
@@ -25,7 +23,6 @@
 *.csv text
 *.tab text
 *.tsv text
-
 #
 ## Binary files should be left untouched
 #
@@ -48,8 +45,6 @@
 *.woff binary
 *.pyc binary
 *.pdf binary
-
-
 #
 ## Visual Studio
 #
@@ -59,11 +54,9 @@
 *.fsproj merge=union
 *.dbproj merge=union
 *.cs     diff=csharp
-
 #
 ## These files are text and should be normalized (Convert crlf => lf)
 #
-
 # source code
 *.php text
 *.css text
@@ -88,7 +81,6 @@
 *.sql text
 *.sh text
 *.bat text
-
 # templates
 *.ejs text
 *.hbt text
@@ -98,30 +90,25 @@
 *.dot text
 *.tmpl text
 *.phtml text
-
 # server config
 web.config text
-
 # git config
 .gitattributes text
 .gitignore text
-
 # code analysis config
 .jshintrc text
 .jscsrc text
 .jshintignore text
 .csslintrc text
-
 # misc config
 *.yaml text
 *.yml text
 .editorconfig text
-
 # build config
 *.npmignore text
 *.bowerrc text
-
 # Documentation
 *.md text
 LICENSE text
 AUTHORS text
+myCourses/MAIN-myGraduationWork-2024/Theory/Презентация.pptx filter=lfs diff=lfs merge=lfs -text
