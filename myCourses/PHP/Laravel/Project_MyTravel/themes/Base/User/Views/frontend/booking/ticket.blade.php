@@ -161,4 +161,3 @@
 @section('footer')
     <script type="text/javascript" src="{{ asset("module/user/js/user.js") }}"></script>
 @endsection
-
