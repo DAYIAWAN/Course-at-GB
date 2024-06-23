@@ -7,7 +7,7 @@
         "frontend-prod": "cross-env process.env.section=frontend mix --production"
     },
     "devDependencies": {
-        "axios": "^0.21.1",
+        "axios": "^0.28.0",
         "bootstrap": "^4.4.1",
         "cross-env": "^5.2.1",
         "del": "^5.1.0",
