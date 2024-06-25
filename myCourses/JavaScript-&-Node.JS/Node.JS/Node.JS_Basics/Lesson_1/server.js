@@ -1,5 +1,3 @@
-// server.js
-
 const express = require('express');
 const path = require('path');
 const app = express();
@@ -24,21 +22,11 @@ app.get('/about', (req, res) => {
   res.sendFile(path.join(__dirname, 'views', 'about.html'));
 });
 
-// Обработка несуществующих маршрутов
-app.use((req, res) => {
-  res.status(404).send('<h1>404: Page Not Found</h1>');
-});
-
-// Запуск сервера
-app.listen(port, () => {
-  console.log(`Server is running at http://localhost:${port}`);
-});
-
 // Обработка запроса для получения значений счетчиков
 app.get('/counter', (req, res) => {
   const type = req.query.type;
   let counter;
-  
+
   if (type === 'index') {
     counter = indexCounter;
   } else if (type === 'about') {
@@ -48,4 +36,14 @@ app.get('/counter', (req, res) => {
   }
 
   res.json({ counter });
+});
+
+// Обработка несуществующих маршрутов
+app.use((req, res) => {
+  res.status(404).send('<h1>404: Page Not Found</h1>');
+});
+
+// Запуск сервера
+app.listen(port, () => {
+  console.log(`Server is running at http://localhost:${port}`);
 });
