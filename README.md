@@ -1,6 +1,10 @@
-![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/dev/myIcon.png?raw=true "")
+<p align="center">
+  <a href="https://motoyama.one" target="_blank">
+    <img src="https://motoyama.org/mt-content/uploads/2024/06/logo.png" alt="MOTOYAMA" title="MOTOYAMA">
+  </a>
+</p>
 
-# <p style="text-align: center;">Репозиторий студента Дайяван'а (GB)</p>
+# <p align="center">Репозиторий студента Дайяван'а <a href="https://gb.ru/users/aedabf19-0ea0-43e6-8800-c73f3e6ee7b3" target="_blank">[GB]</a></p>
 
 ![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
 ![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
