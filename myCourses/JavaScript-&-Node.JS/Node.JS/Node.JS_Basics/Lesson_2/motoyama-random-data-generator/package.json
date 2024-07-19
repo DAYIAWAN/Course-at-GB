@@ -1,0 +1,24 @@
+{
+  "name": "motoyama-random-data-generator",
+  "version": "1.0.1",
+  "description": "A library to generate random Russian names, addresses, dates, and numbers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DAYIAWAN/Course-at-GB/tree/main/myCourses/JavaScript-%26-Node.JS/Node.JS/Node.JS_Basics/Lesson_2"
+  },
+  "keywords": [
+    "random",
+    "data",
+    "generator",
+    "names",
+    "addresses",
+    "dates",
+    "numbers"
+  ],
+  "author": "DAYIAWAN",
+  "license": "ISC"
+}
