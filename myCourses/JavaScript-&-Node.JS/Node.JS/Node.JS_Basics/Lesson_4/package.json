@@ -1,0 +1,15 @@
+{
+  "name": "lesson_4",
+  "version": "1.0.0",
+  "description": "Простой сервер для хранения пользователей на постоянной основе (а не только тогда, когда запущен сервер). Необходимо реализовать хранение массива в файле.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
