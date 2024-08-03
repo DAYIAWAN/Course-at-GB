@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Йога",
+        "time": "10:00 - 11:00",
+        "maxParticipants": 20,
+        "currentParticipants": 15
+    },
+    {
+        "name": "Пилатес",
+        "time": "12:00 - 13:00",
+        "maxParticipants": 15,
+        "currentParticipants": 15
+    },
+    {
+        "name": "Кардио",
+        "time": "14:00 - 15:00",
+        "maxParticipants": 30,
+        "currentParticipants": 20
+    }
+]
