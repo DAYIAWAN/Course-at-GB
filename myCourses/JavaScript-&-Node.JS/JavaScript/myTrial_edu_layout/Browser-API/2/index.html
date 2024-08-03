@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Веб-слайдер изображений</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="slider">
+            <div class="slider-container">
+                <img src="images/image1.jpg" alt="Изображение 1" class="slider-image">
+                <img src="images/image2.jpg" alt="Изображение 2" class="slider-image">
+                <img src="images/image3.jpg" alt="Изображение 3" class="slider-image">
+            </div>
+            <button class="slider-button prev-button">Предыдущее изображение</button>
+            <button class="slider-button next-button">Следующее изображение</button>
+            <div class="slider-indicators">
+                <span class="slider-indicator" data-index="0"></span>
+                <span class="slider-indicator" data-index="1"></span>
+                <span class="slider-indicator" data-index="2"></span>
+            </div>
+        </div>
+    </div>
+    <script src="js/slider.js"></script>
+</body>
+</html>
