@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  web:
+    build:
+      context: .
+    container_name: nginx-php
+    ports:
+      - "8080:80"
+    volumes:
+      - ./html:/var/www/html
+
+  cli:
+    build:
+      context: .
+      dockerfile: Dockerfile.cli
+    container_name: php-cli
+    volumes:
+      - ./html:/var/www/html
