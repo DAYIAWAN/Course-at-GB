@@ -21,6 +21,8 @@ class UserController extends AbstractController
 
     public function updateUser()
     {
+        $this->checkAdmin();  // Проверка прав администратора
+
         $userRepository = new UserRepository();
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $user = $userRepository->find($_POST['id']);
@@ -36,8 +38,25 @@ class UserController extends AbstractController
 
     public function deleteUser()
     {
-        $userRepository = new UserRepository();
-        $userRepository->delete($_GET['id']);
-        header('Location: user_list.php');
+        $this->checkAdmin();  // Проверка прав администратора
+
+        if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['id'])) {
+            $userRepository = new UserRepository();
+            $userRepository->delete($_POST['id']);
+            echo json_encode(['status' => 'success']);
+            return;
+        }
+
+        header('HTTP/1.1 400 Bad Request');
+        echo json_encode(['status' => 'error', 'message' => 'Invalid request']);
+    }
+
+    private function checkAdmin()
+    {
+        // Предполагается, что $this->currentUser содержит текущего пользователя
+        if ($this->currentUser->role !== 'admin') {
+            header('HTTP/1.1 403 Forbidden');
+            exit('Access denied');
+        }
     }
 }
