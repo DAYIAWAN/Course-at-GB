@@ -20,7 +20,7 @@ $capsule->addConnection([
 $capsule->setAsGlobal();
 $capsule->bootEloquent();
 
-require 'src/migrations/2024_08_21_add_role_to_users_table.php';
+require 'src/Migrations/Add_role_to_users_table.php';
 
 $migration = new AddRoleToUsersTable();
 $migration->up();
