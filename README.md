@@ -232,6 +232,13 @@
   <dd><a href="https://t.me/MOTOYAMA_bot" target="_blank">Открыть Телеграм-бот</a></dd>
 </dl>
 
+<a name="myTag_myTask"><h3>"MyTravel" — система бронирования на основе фреймворка Laravel, разработанная для туристического веб-сайта (PHP)</h3></a>
+
+<!-- "GitHub" -->
+<dl>
+  <dd><a href="https://github.com/DAYIAWAN/Course-at-GB/tree/main/myCourses/PHP/Laravel" target="_blank">Открыть (на "GitHub")</a></dd>
+</dl>
+
 ![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
 ![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
 ![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
