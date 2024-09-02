@@ -1,10 +1,10 @@
 # ДИПЛОМНАЯ РАБОТА
 
-![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
+![](https://motoyama.one/mt-content/uploads/2016/08/image0.gif "")
 
 ## •	"Создание и реализация Интернет-магазина – комплексное исследование разработки эффективной и удобной платформы для онлайн-шопинга".
 
-![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
+![](https://motoyama.one/mt-content/uploads/2016/08/image0.gif "")
 
 ### Специальность: Full-stack разработчик [GeekBrains]
 
@@ -12,9 +12,9 @@
 
 #### Год написания дипломной работы: <u>2024</u>
 
-![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
-![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
-![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
+![](https://motoyama.one/mt-content/uploads/2016/08/image0.gif "")
+![](https://motoyama.one/mt-content/uploads/2016/08/image0.gif "")
+![](https://motoyama.one/mt-content/uploads/2016/08/image0.gif "")
 
 ##### Мой личный сайт-портфолио выполненных на заказ работ: <a href="https://motoyama.one" target="_blank">MOTOYAMA.ONE</a>
 

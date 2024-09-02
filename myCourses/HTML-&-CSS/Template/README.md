@@ -55,8 +55,8 @@
 3. Слушатель проверил работу сайта на разрешении 425 px
 4. Слушатель проверил сайт на валидность
 
-![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
-![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
-![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
+![](https://motoyama.one/mt-content/uploads/2016/08/image0.gif "")
+![](https://motoyama.one/mt-content/uploads/2016/08/image0.gif "")
+![](https://motoyama.one/mt-content/uploads/2016/08/image0.gif "")
 
 #### Web-мастер Дайяван | Мой личный сайт: https://motoyama.one

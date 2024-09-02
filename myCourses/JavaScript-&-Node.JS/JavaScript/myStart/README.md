@@ -1,10 +1,10 @@
 <h1>Стартовые шаблоны для адаптивной вёрстки сайтов</h1>
 
-![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
+![](https://motoyama.one/mt-content/uploads/2016/08/image0.gif "")
 
 <p><b>Автор сборки: <a href="https://motoyama.one" target="_blank">https://motoyama.one</a></b></p>
 
-![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
+![](https://motoyama.one/mt-content/uploads/2016/08/image0.gif "")
 
 <h3>Получить нужный стартер:</h3>
 
@@ -25,9 +25,9 @@
 <h4>Получить _optimized_gulp_sass_jade:</h4>
 <pre>git clone https://github.com/DAYIAWAN/start_html; cp -r start_html/_optimized_gulp_sass_jade .; rm -rf start_html</pre>
 
-![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
-![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
-![](https://github.com/DAYIAWAN/Course-at-GB/blob/main/myTemplates/Var_1/index_files/0.gif?raw=true "")
+![](https://motoyama.one/mt-content/uploads/2016/08/image0.gif "")
+![](https://motoyama.one/mt-content/uploads/2016/08/image0.gif "")
+![](https://motoyama.one/mt-content/uploads/2016/08/image0.gif "")
 
 <p>Итак, <strong>start_html</strong> – это чистые, готовые к бою HTML5 шаблоны (CSS и SASS), предназначенные для ускорения разработки современных адаптивных сайтов. Шаблоны содержат наиболее используемые и актуальные компоненты.
 Шаблоны поддерживаются и регулярно обновляются, перед стартом проекта - рекомендую скачать новую версию.</p>
