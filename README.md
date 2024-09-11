@@ -70,7 +70,7 @@
 
 <!-- "GitHub" -->
 <dl>
-  <dt>Ссылка на итоговую работу</dt>
+  <dt>Ссылка на промежуточную аттестацию</dt>
   <dd><a href="https://github.com/DAYIAWAN/Course-at-GB/tree/main/myCourses/my_FinalTask" target="_blank">Открыть (на "GitHub")</a></dd>
 </dl>
 
@@ -81,7 +81,7 @@
 <!-- "GitHub" -->
 <dl>
   <dt>Ссылка на папку с задачами к семинарам (Python)</dt>
-  <dd><a href="https://github.com/DAYIAWAN/Course-at-GB/tree/main/myCourses/Intro_to_Python" target="_blank">Открыть (на "GitHub")</a></dd>
+  <dd><a href="https://github.com/DAYIAWAN/Course-at-GB/tree/main/myCourses/Python/Intro" target="_blank">Открыть (на "GitHub")</a></dd>
 </dl>
 
 ![](https://motoyama.one/mt-content/uploads/2016/08/image0.gif "")
@@ -101,7 +101,7 @@
 <!-- "GitHub" -->
 <dl>
   <dt>Ссылка на папку с задачами к семинарам (Java)</dt>
-  <dd><a href="https://github.com/DAYIAWAN/Course-at-GB/tree/main/myCourses/Java_intro" target="_blank">Открыть (на "GitHub")</a></dd>
+  <dd><a href="https://github.com/DAYIAWAN/Course-at-GB/tree/main/myCourses/Java/Intro" target="_blank">Открыть (на "GitHub")</a></dd>
 </dl>
 
 ![](https://motoyama.one/mt-content/uploads/2016/08/image0.gif "")
