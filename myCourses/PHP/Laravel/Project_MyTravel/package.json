@@ -8,10 +8,10 @@
     },
     "devDependencies": {
         "axios": "^0.21.1",
-        "bootstrap": "^4.4.1",
+        "bootstrap": "^5.3.3",
         "cross-env": "^5.2.1",
         "del": "^5.1.0",
-        "gulp": "^4.0.2",
+        "gulp": "^5.0.0",
         "gulp-clean": "^0.4.0",
         "gulp-rename": "^1.4.0",
         "gulp-zip": "^5.0.1",
@@ -24,11 +24,11 @@
         "sass": "^1.32.8",
         "sass-loader": "10.*",
         "vue-loader": "15.9.5",
-        "vue-template-compiler": "^2.6.12"
+        "vue-template-compiler": "^2.7.16"
     },
     "dependencies": {
         "@tinymce/tinymce-vue": "^3.2.0",
-        "bootbox": "^5.4.0",
+        "bootbox": "^5.5.3",
         "core-js": "^2.6.11",
         "font-awesome": "^4.7.0",
         "he-tree-vue": "^1.1.2",
