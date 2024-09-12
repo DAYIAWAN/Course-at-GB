@@ -181,6 +181,16 @@
   <dd><a href="https://github.com/DAYIAWAN/Course-at-GB/tree/main/myCourses/PHP/Laravel" target="_blank">Открыть (на "GitHub")</a></dd>
 </dl>
 
+![](https://motoyama.one/mt-content/uploads/2016/08/image0.gif "")
+
+<a name="myTag_17"><h2>Фреймворк React.JS</h2></a>
+
+<!-- "GitHub" -->
+<dl>
+  <dt>Ссылка на папку с заданиями</dt>
+  <dd><a href="https://github.com/DAYIAWAN/Course-at-GB/tree/main/myCourses/JavaScript-%26-Node.JS/Node.JS/React.JS" target="_blank">Открыть (на "GitHub")</a></dd>
+</dl>
+
 </details>
 
 ---
