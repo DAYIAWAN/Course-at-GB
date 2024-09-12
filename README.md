@@ -6,6 +6,8 @@
 
 # <p align="center">Репозиторий студента Дайяван'а <a href="https://gb.ru/users/aedabf19-0ea0-43e6-8800-c73f3e6ee7b3" target="_blank">[GB]</a></p>
 
+[![Typing](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=👋+Hi+there!+I'm+Dayiawan!+%20🙏)](https://motoyama.one)
+
 ![](https://motoyama.one/mt-content/uploads/2016/08/image0.gif "")
 ![](https://motoyama.one/mt-content/uploads/2016/08/image0.gif "")
 ![](https://motoyama.one/mt-content/uploads/2016/08/image0.gif "")
