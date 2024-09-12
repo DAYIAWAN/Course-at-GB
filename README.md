@@ -15,7 +15,7 @@
 ## <p align="center">📚Пройденные курсы GB📚</p>
 
 <details>
-## <summary><strong>Посмотреть все курсы</strong></summary>
+<summary><strong>Посмотреть все курсы</strong></summary>
 
 <a name="myTag_1"><h2>Математика и информатика для программистов (дополнительный курс)</h2></a>
 
@@ -183,9 +183,9 @@
 
 </details>
 
-![](https://motoyama.one/mt-content/uploads/2016/08/image0.gif "")
-![](https://motoyama.one/mt-content/uploads/2016/08/image0.gif "")
-![](https://motoyama.one/mt-content/uploads/2016/08/image0.gif "")
+---
+---
+---
 
 ## <p align="center">🎓ИТОГОВЫЕ РАБОТЫ🎓</p>
 
