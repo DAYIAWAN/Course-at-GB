@@ -13,7 +13,7 @@
 ![](https://motoyama.one/mt-content/uploads/2016/08/image0.gif "")
 
 <details>
-<summary><strong>Посмотреть все курсы</strong></summary>
+## <summary><strong>📚Посмотреть все курсы📚</strong></summary>
 
 <a name="myTag_1"><h2>Математика и информатика для программистов (дополнительный курс)</h2></a>
 
@@ -185,7 +185,7 @@
 ![](https://motoyama.one/mt-content/uploads/2016/08/image0.gif "")
 ![](https://motoyama.one/mt-content/uploads/2016/08/image0.gif "")
 
-## <<< ИТОГОВЫЕ РАБОТЫ >>>
+## <p align="center">🎓ИТОГОВЫЕ РАБОТЫ🎓</p>
 
 <a name="myTag_myTask"><h3>Готовый телефонный справочник (Python)</h3></a>
 
@@ -251,6 +251,6 @@
 ![](https://motoyama.one/mt-content/uploads/2016/08/image0.gif "")
 
 <!-- "Notion" -->
-<p style="text-align: center;"><a href="https://esoter.notion.site/75e1e973a5584a2eb8294ffdc7ad8598" target="_blank">Моё учебное облако в <b>"<u>Notion</u>"</b></a></p>
+<p style="text-align: center;"><a href="https://esoter.notion.site/75e1e973a5584a2eb8294ffdc7ad8598" target="_blank">🔍Моё учебное облако в <b>"<u>Notion</u>"</b></a></p>
 
 ---
