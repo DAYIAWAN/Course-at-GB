@@ -12,6 +12,9 @@
 ![](https://motoyama.one/mt-content/uploads/2016/08/image0.gif "")
 ![](https://motoyama.one/mt-content/uploads/2016/08/image0.gif "")
 
+<details>
+<summary><strong>Посмотреть все курсы</strong></summary>
+
 <a name="myTag_1"><h2>Математика и информатика для программистов (дополнительный курс)</h2></a>
 
 <!-- "GitHub" -->
@@ -176,6 +179,8 @@
   <dd><a href="https://github.com/DAYIAWAN/Course-at-GB/tree/main/myCourses/PHP/Laravel" target="_blank">Открыть (на "GitHub")</a></dd>
 </dl>
 
+</details>
+
 ![](https://motoyama.one/mt-content/uploads/2016/08/image0.gif "")
 ![](https://motoyama.one/mt-content/uploads/2016/08/image0.gif "")
 ![](https://motoyama.one/mt-content/uploads/2016/08/image0.gif "")
@@ -248,4 +253,4 @@
 <!-- "Notion" -->
 <p style="text-align: center;"><a href="https://esoter.notion.site/75e1e973a5584a2eb8294ffdc7ad8598" target="_blank">Моё учебное облако в <b>"<u>Notion</u>"</b></a></p>
 
-![](https://motoyama.one/mt-content/uploads/2016/08/image0.gif "")
+---
