@@ -251,11 +251,26 @@
   <dd><a href="https://t.me/MOTOYAMA_bot" target="_blank">Открыть Телеграм-бот</a></dd>
 </dl>
 
+![](https://motoyama.one/mt-content/uploads/2016/08/image0.gif "")
+
 <a name="myTag_myTask"><h3>"MyTravel" — система бронирования на основе фреймворка Laravel, разработанная для туристического веб-сайта (PHP)</h3></a>
 
 <!-- "GitHub" -->
 <dl>
   <dd><a href="https://github.com/DAYIAWAN/Course-at-GB/tree/main/myCourses/PHP/Laravel" target="_blank">Открыть (на "GitHub")</a></dd>
+</dl>
+
+![](https://motoyama.one/mt-content/uploads/2016/08/image0.gif "")
+![](https://motoyama.one/mt-content/uploads/2016/08/image0.gif "")
+![](https://motoyama.one/mt-content/uploads/2016/08/image0.gif "")
+
+## <p align="center">🎓ДИПЛОМНЫЕ РАБОТЫ🎓</p>
+
+<a name="myTag_myTask"><h3>"Создание и реализация Интернет-магазина – комплексное исследование разработки эффективной и удобной платформы для онлайн-шопинга"</h3></a>
+
+<!-- "GitHub" -->
+<dl>
+  <dd><a href="https://github.com/DAYIAWAN/Course-at-GB/tree/main/myCourses/MAIN-myGraduationWork-2024/" target="_blank">Открыть (на "GitHub")</a></dd>
 </dl>
 
 ---
