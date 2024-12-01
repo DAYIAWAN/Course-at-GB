@@ -8,7 +8,7 @@
 
 ## •	Специальность: Frontend разработчик (React). Технологическая специализация.
 
-### <a href="https://github.com/DAYIAWAN/Course-at-GB/tree/main/myCourses/MAIN-myGraduationWork-2024/React/" target="_blank">"Создание и реализация Интернет-магазина – комплексное исследование разработки эффективной и удобной платформы для онлайн-шопинга"</a>
+### <a href="https://github.com/DAYIAWAN/Course-at-GB/tree/main/myCourses/MAIN-myGraduationWork-2024/React/" target="_blank">"Создание и реализация интернет-магазина на основе технологий React и Node.js"</a>
 
 ![](https://motoyama.one/mt-content/uploads/2016/08/image0.gif "")
 
