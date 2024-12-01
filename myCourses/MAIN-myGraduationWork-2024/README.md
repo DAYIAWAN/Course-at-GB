@@ -2,11 +2,11 @@
 
 ![](https://motoyama.one/mt-content/uploads/2016/08/image0.gif "")
 
-## •	Специальность: Full-stack разработчик. Технологическая специализация.
+## •	Специальность: Full-stack разработчик
 
 ### <a href="https://github.com/DAYIAWAN/Course-at-GB/tree/main/myCourses/MAIN-myGraduationWork-2024/Full-stack/" target="_blank">"Создание и реализация Интернет-магазина – комплексное исследование разработки эффективной и удобной платформы для онлайн-шопинга"</a>
 
-## •	Специальность: Frontend разработчик (React). Технологическая специализация.
+## •	Специальность: Frontend разработчик (React)
 
 ### <a href="https://github.com/DAYIAWAN/Course-at-GB/tree/main/myCourses/MAIN-myGraduationWork-2024/React/" target="_blank">"Создание и реализация интернет-магазина на основе технологий React и Node.js"</a>
 
