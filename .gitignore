@@ -267,3 +267,5 @@ Temporary Items
 src/wwwroot/data/
 
 .fake
+
+.codegpt
