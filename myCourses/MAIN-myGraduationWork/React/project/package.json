@@ -1,0 +1,40 @@
+{
+  "name": "MOTOYAMA",
+  "version": "3.0.0",
+  "description": "Дипломный проект представляет собой интернет-магазин обуви. Задача заключается в создании работающего приложения, всеми основными функциями которого можно пользоваться.",
+  "engines": {
+    "node": "10.x"
+  },
+  "scripts": {
+    "start": "node server",
+    "watch": "forever -w server",
+    "build": "cd react-ui/ && npm install && npm run build"
+  },
+  "cacheDirectories": [
+    "node_modules",
+    "react-ui/node_modules"
+  ],
+  "dependencies": {
+    "forever": "^1.0.0",
+    "koa": "^2.7.0",
+    "koa-body": "^4.1.1",
+    "koa-router": "^7.4.0",
+    "koa-send": "^5.0.0",
+    "koa-static": "^5.0.0",
+    "koa2-cors": "^2.0.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DAYIAWAN/diploma.git"
+  },
+  "keywords": [
+    "ecommerce",
+    "react",
+    "redux",
+    "redux-thunk",
+    "node",
+    "heroku"
+  ],
+  "license": "MIT",
+  "devDependencies": {}
+}
