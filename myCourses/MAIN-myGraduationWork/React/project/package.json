@@ -15,7 +15,7 @@
     "react-ui/node_modules"
   ],
   "dependencies": {
-    "forever": "^1.0.0",
+    "forever": "^4.0.3",
     "koa": "^2.7.0",
     "koa-body": "^4.1.1",
     "koa-router": "^7.4.0",
