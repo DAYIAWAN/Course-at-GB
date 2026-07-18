@@ -1,3 +1,0 @@
-[submodule "src/data/gitattributes"]
-	path = src/data/gitattributes
-	url = https://github.com/gitattributes/gitattributes.git

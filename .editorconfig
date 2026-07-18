@@ -1,44 +1,128 @@
-; Editors Configuration
-; See https://motoyama.one for more information.
+# EditorConfig
+# https://editorconfig.org
 
-
-# top-most EditorConfig file
 root = true
 
-; Defaults
+# ==============================================================================
+# Defaults
+# ==============================================================================
+
 [*]
+charset = utf-8
+end_of_line = lf
 indent_style = space
 indent_size = 2
 insert_final_newline = true
+trim_trailing_whitespace = true
 
+# ==============================================================================
+# Documentation
+# ==============================================================================
 
-; C# settings
-[*.cs]
-indent_style = space
-indent_size = 4
-insert_final_newline = true
-
-
-; ASP.NET 5 Project Files
-[global.json]
-indent_style = space
-indent_size = 4
-insert_final_newline = true
-
-[*.json]
-indent_style = space
-indent_size = 2
-insert_final_newline = true
-
-
-; Markdown files
 [*.md]
-indent_style = space
-insert_final_newline = false
+trim_trailing_whitespace = false
 
-
-; NuGet packages configuration files
-[packages.config]
-indent_style = space
+[*.{txt,adoc,rst}]
 indent_size = 2
-insert_final_newline = false
+
+# ==============================================================================
+# JavaScript / TypeScript / Web
+# ==============================================================================
+
+[*.{js,jsx,mjs,cjs,ts,tsx,vue,svelte}]
+indent_size = 2
+
+[*.{html,htm,css,scss,sass,less,styl}]
+indent_size = 2
+
+[*.{json,jsonc,yaml,yml}]
+indent_size = 2
+
+# ==============================================================================
+# C# / .NET
+# ==============================================================================
+
+[*.cs]
+indent_size = 4
+
+[*.{csproj,vbproj,fsproj,dbproj,props,targets,config,resx}]
+indent_size = 2
+
+[global.json]
+indent_size = 2
+
+[packages.config]
+indent_size = 2
+
+[*.sln]
+end_of_line = crlf
+indent_size = 4
+
+# ==============================================================================
+# Python
+# ==============================================================================
+
+[*.py]
+indent_size = 4
+
+[*.pyi]
+indent_size = 4
+
+# ==============================================================================
+# Java / Kotlin
+# ==============================================================================
+
+[*.{java,kt,kts}]
+indent_size = 4
+
+[*.{gradle,groovy}]
+indent_size = 4
+
+# ==============================================================================
+# PHP / Laravel
+# ==============================================================================
+
+[*.php]
+indent_size = 4
+
+[*.blade.php]
+indent_size = 2
+
+# ==============================================================================
+# Shell and command scripts
+# ==============================================================================
+
+[*.{sh,bash,zsh}]
+indent_size = 2
+end_of_line = lf
+
+[*.ps1]
+indent_size = 4
+end_of_line = lf
+
+[*.{bat,cmd}]
+indent_size = 2
+end_of_line = crlf
+
+# ==============================================================================
+# SQL
+# ==============================================================================
+
+[*.sql]
+indent_size = 2
+
+# ==============================================================================
+# Makefiles
+# ==============================================================================
+
+[Makefile]
+indent_style = tab
+indent_size = 4
+
+[makefile]
+indent_style = tab
+indent_size = 4
+
+[*.mk]
+indent_style = tab
+indent_size = 4

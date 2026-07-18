@@ -1,114 +1,246 @@
-# Auto detect text files and perform LF normalization
-# https://motoyama.one
-* text=auto
-#
-# The above will handle all files NOT found below
-#
-#
-## Documents
-#
-*.doc  diff=astextplain
-*.DOC  diff=astextplain
-*.docx diff=astextplain
-*.DOCX diff=astextplain
-*.dot  diff=astextplain
-*.DOT  diff=astextplain
-*.pdf  diff=astextplain
-*.PDF  diff=astextplain
-*.rtf  diff=astextplain
-*.RTF  diff=astextplain
-*.adoc text
-*.textile text
-*.mustache text
-*.csv text
-*.tab text
-*.tsv text
-#
-## Binary files should be left untouched
-#
+# Git attributes for Course-at-GB
+# Educational monorepository: web, Node.js, Python, Java, PHP/Laravel and .NET.
+
+# ==============================================================================
+# Default text handling
+# ==============================================================================
+
+# Detect text files automatically, store them in Git with LF line endings,
+# and let Git convert them for the working tree when explicitly overridden below.
+* text=auto eol=lf
+
+# ==============================================================================
+# Repository metadata and documentation
+# ==============================================================================
+
+.gitattributes text eol=lf
+.gitignore text eol=lf
+.editorconfig text eol=lf
+
+README.md text eol=lf
+AUTHORS text eol=lf
+LICENSE text eol=lf
+SECURITY.md text eol=lf
+
+*.md text eol=lf
+*.mdx text eol=lf
+*.txt text eol=lf
+*.adoc text eol=lf
+*.rst text eol=lf
+*.textile text eol=lf
+
+# ==============================================================================
+# Data and configuration
+# ==============================================================================
+
+*.csv text eol=lf
+*.tsv text eol=lf
+*.tab text eol=lf
+*.json text eol=lf
+*.jsonc text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.xml text eol=lf
+*.ini text eol=lf
+*.conf text eol=lf
+*.config text eol=lf
+*.toml text eol=lf
+*.properties text eol=lf
+*.env text eol=lf
+*.env.example text eol=lf
+
+# ==============================================================================
+# Web and JavaScript / TypeScript
+# ==============================================================================
+
+*.html text eol=lf
+*.htm text eol=lf
+*.css text eol=lf
+*.scss text eol=lf
+*.sass text eol=lf
+*.less text eol=lf
+*.styl text eol=lf
+
+*.js text eol=lf
+*.jsx text eol=lf
+*.mjs text eol=lf
+*.cjs text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.vue text eol=lf
+*.svelte text eol=lf
+
+*.svg text eol=lf
+*.dot text eol=lf
+
+# Templates
+*.ejs text eol=lf
+*.hbt text eol=lf
+*.hbs text eol=lf
+*.mustache text eol=lf
+*.twig text eol=lf
+*.blade.php text eol=lf
+*.tmpl text eol=lf
+*.phtml text eol=lf
+
+# ==============================================================================
+# Programming languages
+# ==============================================================================
+
+*.cs text eol=lf diff=csharp
+*.java text eol=lf
+*.kt text eol=lf
+*.kts text eol=lf
+*.py text eol=lf
+*.pyi text eol=lf
+*.php text eol=lf
+*.rb text eol=lf
+*.pl text eol=lf
+*.sql text eol=lf
+*.go text eol=lf
+*.rs text eol=lf
+*.c text eol=lf
+*.h text eol=lf
+*.cpp text eol=lf
+*.hpp text eol=lf
+
+# ==============================================================================
+# Project and build files
+# ==============================================================================
+
+*.csproj text eol=lf
+*.vbproj text eol=lf
+*.fsproj text eol=lf
+*.dbproj text eol=lf
+*.props text eol=lf
+*.targets text eol=lf
+*.resx text eol=lf
+
+*.gradle text eol=lf
+*.groovy text eol=lf
+*.pom text eol=lf
+pom.xml text eol=lf
+
+Makefile text eol=lf
+makefile text eol=lf
+*.mk text eol=lf
+
+Dockerfile text eol=lf
+docker-compose.yml text eol=lf
+docker-compose.yaml text eol=lf
+
+# ==============================================================================
+# Shell and platform-specific files
+# ==============================================================================
+
+*.sh text eol=lf
+*.bash text eol=lf
+*.zsh text eol=lf
+*.ps1 text eol=lf
+
+# Visual Studio solutions and Windows command scripts conventionally use CRLF.
+*.sln text eol=crlf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# ==============================================================================
+# Binary images
+# ==============================================================================
+
 *.png binary
 *.jpg binary
 *.jpeg binary
+*.jpe binary
 *.gif binary
+*.webp binary
+*.avif binary
+*.bmp binary
 *.ico binary
-*.mov binary
-*.mp4 binary
-*.mp3 binary
-*.flv binary
-*.fla binary
-*.swf binary
-*.gz binary
+*.tif binary
+*.tiff binary
+*.psd binary
+
+# ==============================================================================
+# Binary documents and archives
+# ==============================================================================
+
+*.pdf binary
+*.doc binary
+*.docx binary
+*.dotx binary
+*.xls binary
+*.xlsx binary
+*.xlsm binary
+*.ppt binary
+*.pptx binary
+*.odt binary
+*.ods binary
+*.odp binary
+*.rtf binary
+
 *.zip binary
 *.7z binary
+*.rar binary
+*.tar binary
+*.gz binary
+*.bz2 binary
+*.xz binary
+
+# ==============================================================================
+# Binary audio and video
+# ==============================================================================
+
+*.mp3 binary
+*.wav binary
+*.ogg binary
+*.flac binary
+*.aac binary
+*.m4a binary
+
+*.mp4 binary
+*.mov binary
+*.avi binary
+*.mkv binary
+*.webm binary
+*.flv binary
+*.swf binary
+*.fla binary
+
+# ==============================================================================
+# Binary fonts, executables and compiled artifacts
+# ==============================================================================
+
 *.ttf binary
+*.otf binary
 *.eot binary
 *.woff binary
+*.woff2 binary
+
+*.exe binary
+*.dll binary
+*.so binary
+*.dylib binary
+*.jar binary
+*.war binary
+*.class binary
 *.pyc binary
-*.pdf binary
-#
-## Visual Studio
-#
-*.sln text eol=crlf merge=union
-*.csproj merge=union
-*.vbproj merge=union
-*.fsproj merge=union
-*.dbproj merge=union
-*.cs     diff=csharp
-#
-## These files are text and should be normalized (Convert crlf => lf)
-#
-# source code
-*.php text
-*.css text
-*.sass text
-*.scss text
-*.less text
-*.styl text
-*.js text
-*.coffee text
-*.json text
-*.htm text
-*.html text
-*.xml text
-*.svg text
-*.txt text
-*.ini text
-*.inc text
-*.pl text
-*.rb text
-*.py text
-*.scm text
-*.sql text
-*.sh text
-*.bat text
-# templates
-*.ejs text
-*.hbt text
-*.jade text
-*.haml text
-*.hbs text
-*.dot text
-*.tmpl text
-*.phtml text
-# server config
-web.config text
-# git config
-.gitattributes text
-.gitignore text
-# code analysis config
-.jshintrc text
-.jscsrc text
-.jshintignore text
-.csslintrc text
-# misc config
-*.yaml text
-*.yml text
-.editorconfig text
-# build config
-*.npmignore text
-*.bowerrc text
-# Documentation
-*.md text
-LICENSE text
-AUTHORS text
+*.pyo binary
+*.pyd binary
+*.obj binary
+*.pdb binary
+
+# ==============================================================================
+# Binary databases
+# ==============================================================================
+
+*.db binary
+*.sqlite binary
+*.sqlite3 binary
+*.mdf binary
+*.ldf binary
+
+# ==============================================================================
+# Git LFS
+# ==============================================================================
+
 myCourses/MAIN-myGraduationWork-2024/Theory/Презентация.pptx filter=lfs diff=lfs merge=lfs -text
