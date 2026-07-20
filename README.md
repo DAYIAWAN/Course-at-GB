@@ -4,7 +4,7 @@
   </a>
 </p>
 
-# <p align="center">Репозиторий студента Дайяван'а <a href="https://gb.ru/users/aedabf19-0ea0-43e6-8800-c73f3e6ee7b3" target="_blank">[GB]</a></p>
+# <p align="center">Репозиторий студента Дайявана <a href="https://gb.ru/users/aedabf19-0ea0-43e6-8800-c73f3e6ee7b3" target="_blank">[GB]</a></p>
 
 [![Typing](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=👋+Hi+there!+I'm+Dayiawan!+%20🙏)](https://motoyama.one)
 
@@ -317,5 +317,9 @@
 ### 1) <a href="https://github.com/DAYIAWAN/Course-at-GB/tree/main/myCourses/MAIN-myGraduationWork/Full-stack/" target="_blank">"Создание и реализация Интернет-магазина – комплексное исследование разработки эффективной и удобной платформы для онлайн-шопинга"</a>
 
 ### 2) <a href="https://github.com/DAYIAWAN/Course-at-GB/tree/main/myCourses/MAIN-myGraduationWork/React/" target="_blank">"Создание и реализация интернет-магазина на основе технологий React и Node.js"</a>
+
+---
+
+Обучение в GeekBrains проходило в 2022–2025 годах. Репозиторий сохранён как архив выполненных учебных, аттестационных и дипломных работ. Проекты, разработанные после завершения обучения, представлены в отдельных репозиториях и в [IT-портфолио](https://motoyama.one).
 
 ---
